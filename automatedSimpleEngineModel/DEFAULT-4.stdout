@@ -1,0 +1,3966 @@
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 76, in <module>
+    sc.updateInputs()
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-3. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 76, in <module>
+    sc.updateInputs()
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-3. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 84, in <module>
+    sc.updateOutputs(sysc.Converged)
+RuntimeError: serveUntilTokenAssignedAll: ERROR: participant DEFAULT-1 has terminated the client connection unexpectedly. This could be due to a network issue or an unhandled error within the participant. Check participant transcript or debug log files for additional information. Terminating the coupled analysis.
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 70, in <module>
+    sc.initializeAnalysis()
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-3. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 70, in <module>
+    sc.initializeAnalysis()
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-3. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 84, in <module>
+    sc.updateOutputs(sysc.Converged)
+RuntimeError: serveUntilTokenAssignedAll: ERROR: participant DEFAULT-3 has terminated the client connection unexpectedly. This could be due to a network issue or an unhandled error within the participant. Check participant transcript or debug log files for additional information. Terminating the coupled analysis.
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 76, in <module>
+    sc.updateInputs()
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-3. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 70, in <module>
+    sc.initializeAnalysis()
+RuntimeError: serveUntilTokenAssignedAll: ERROR: participant DEFAULT-1 has terminated the client connection unexpectedly. This could be due to a network issue or an unhandled error within the participant. Check participant transcript or debug log files for additional information. Terminating the coupled analysis.
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 70, in <module>
+    sc.initializeAnalysis()
+RuntimeError: serveUntilTokenAssignedAll: ERROR: participant DEFAULT-1 has terminated the client connection unexpectedly. This could be due to a network issue or an unhandled error within the participant. Check participant transcript or debug log files for additional information. Terminating the coupled analysis.
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 84, in <module>
+    sc.updateOutputs(sysc.Converged)
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-3. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 70, in <module>
+    sc.initializeAnalysis()
+RuntimeError: serveUntilTokenAssignedAll: ERROR: participant DEFAULT-1 has terminated the client connection unexpectedly. This could be due to a network issue or an unhandled error within the participant. Check participant transcript or debug log files for additional information. Terminating the coupled analysis.
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 70, in <module>
+    sc.initializeAnalysis()
+RuntimeError: serveUntilTokenAssignedAll: ERROR: participant DEFAULT-1 has terminated the client connection unexpectedly. This could be due to a network issue or an unhandled error within the participant. Check participant transcript or debug log files for additional information. Terminating the coupled analysis.
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 70, in <module>
+    sc.initializeAnalysis()
+RuntimeError: serveUntilTokenAssignedAll: ERROR: participant DEFAULT-3 has terminated the client connection unexpectedly. This could be due to a network issue or an unhandled error within the participant. Check participant transcript or debug log files for additional information. Terminating the coupled analysis.
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 77, in <module>
+    print(incr_save)
+NameError: name 'incr_save' is not defined
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.P: 100000.0
+volC.E1.T: 298
+volC.E2.T: 298
+volC.F1.Qm: 298
+volC.F1.Qmh: 298
+
+1
+volC.E1.P: 100280.64107804808
+volC.E1.T: 298.23789237004905
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 298.23789237004905
+volC.F1.Qmh: 298.23789237004905
+
+2
+volC.E1.P: 100561.52395357055
+volC.E1.T: 298.4634878559346
+volC.E2.T: 298.4634878559346
+volC.F1.Qm: 298.4634878559346
+volC.F1.Qmh: 298.4634878559346
+
+3
+volC.E1.P: 100847.0379337785
+volC.E1.T: 298.68958267671167
+volC.E2.T: 298.68958267671167
+volC.F1.Qm: 298.68958267671167
+volC.F1.Qmh: 298.68958267671167
+
+4
+volC.E1.P: 101137.30158334138
+volC.E1.T: 298.9162347728616
+volC.E2.T: 298.9162347728616
+volC.F1.Qm: 298.9162347728616
+volC.F1.Qmh: 298.9162347728616
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.P: 100000.0
+volC.E1.T: 298
+volC.E2.T: 298
+volC.F1.Qm: 298
+volC.F1.Qmh: 298
+
+1
+volC.E1.P: 100280.64107804808
+volC.E1.T: 298.23789237004905
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 298.23789237004905
+volC.F1.Qmh: 298.23789237004905
+
+2
+volC.E1.P: 100561.52395357055
+volC.E1.T: 298.4634878559346
+volC.E2.T: 298.4634878559346
+volC.F1.Qm: 298.4634878559346
+volC.F1.Qmh: 298.4634878559346
+
+3
+volC.E1.P: 100847.0379337785
+volC.E1.T: 298.68958267671167
+volC.E2.T: 298.68958267671167
+volC.F1.Qm: 298.68958267671167
+volC.F1.Qmh: 298.68958267671167
+
+4
+volC.E1.P: 101137.30158334138
+volC.E1.T: 298.9162347728616
+volC.E2.T: 298.9162347728616
+volC.F1.Qm: 298.9162347728616
+volC.F1.Qmh: 298.9162347728616
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.P: 100280.64107804808
+volC.E1.T: 298.23789237004905
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 298.23789237004905
+volC.F1.Qmh: 298.23789237004905
+
+1
+volC.E1.P: 100561.52395357055
+volC.E1.T: 298.4634878559346
+volC.E2.T: 298.4634878559346
+volC.F1.Qm: 298.4634878559346
+volC.F1.Qmh: 298.4634878559346
+
+2
+volC.E1.P: 100847.0379337785
+volC.E1.T: 298.68958267671167
+volC.E2.T: 298.68958267671167
+volC.F1.Qm: 298.68958267671167
+volC.F1.Qmh: 298.68958267671167
+
+3
+volC.E1.P: 101137.30158334138
+volC.E1.T: 298.9162347728616
+volC.E2.T: 298.9162347728616
+volC.F1.Qm: 298.9162347728616
+volC.F1.Qmh: 298.9162347728616
+
+4
+volC.E1.P: 101432.38376478401
+volC.E1.T: 299.14334600899343
+volC.E2.T: 299.14334600899343
+volC.F1.Qm: 299.14334600899343
+volC.F1.Qmh: 299.14334600899343
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.P: 100280.64107804808
+volC.E1.T: 298.23789237004905
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 298.23789237004905
+volC.F1.Qmh: 298.23789237004905
+
+1
+volC.E1.P: 100561.52395357055
+volC.E1.T: 298.4634878559346
+volC.E2.T: 298.4634878559346
+volC.F1.Qm: 298.4634878559346
+volC.F1.Qmh: 298.4634878559346
+
+2
+volC.E1.P: 100847.0379337785
+volC.E1.T: 298.68958267671167
+volC.E2.T: 298.68958267671167
+volC.F1.Qm: 298.68958267671167
+volC.F1.Qmh: 298.68958267671167
+
+3
+volC.E1.P: 101137.30158334138
+volC.E1.T: 298.9162347728616
+volC.E2.T: 298.9162347728616
+volC.F1.Qm: 298.9162347728616
+volC.F1.Qmh: 298.9162347728616
+
+4
+volC.E1.P: 101432.38376478401
+volC.E1.T: 299.14334600899343
+volC.E2.T: 299.14334600899343
+volC.F1.Qm: 299.14334600899343
+volC.F1.Qmh: 299.14334600899343
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.P: 99401.78827082622
+volC.E1.T: 297.48971097319287
+volC.E2.T: 297.48971097319287
+volC.F1.Qm: 297.48971097319287
+volC.F1.Qmh: 297.48971097319287
+
+1
+volC.E1.P: 99682.43170893512
+volC.E1.T: 297.7296564195236
+volC.E2.T: 297.7296564195236
+volC.F1.Qm: 297.7296564195236
+volC.F1.Qmh: 297.7296564195236
+
+2
+volC.E1.P: 99957.81661561427
+volC.E1.T: 297.964167298871
+volC.E2.T: 297.964167298871
+volC.F1.Qm: 297.964167298871
+volC.F1.Qmh: 297.964167298871
+
+3
+volC.E1.P: 100233.46860401353
+volC.E1.T: 298.1865107944563
+volC.E2.T: 298.1865107944563
+volC.F1.Qm: 298.1865107944563
+volC.F1.Qmh: 298.1865107944563
+
+4
+volC.E1.P: 100513.7316050174
+volC.E1.T: 298.4095697659837
+volC.E2.T: 298.4095697659837
+volC.F1.Qm: 298.4095697659837
+volC.F1.Qmh: 298.4095697659837
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 99401.78827082622
+volC.E1.R: 287.0511382180156
+volC.E1.T: 297.48971097319287
+volC.E2.h: -151.06655748740656
+volC.E2.P: 99401.78827082622
+volC.E2.R: 287.0511382180156
+volC.E2.T: 297.48971097319287
+volC.F1.Qm: 0.0
+volC.F1.Qmh: -0.0
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: -664.9769133278526
+volC.E1.P: 99682.43170893512
+volC.E1.R: 287.0511382180156
+volC.E1.T: 297.7296564195236
+volC.E2.h: -664.9769133278526
+volC.E2.P: 99682.43170893512
+volC.E2.R: 287.0511382180156
+volC.E2.T: 297.7296564195236
+volC.F1.Qm: 0.14691333592467207
+volC.F1.Qmh: -22.193691907131143
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+2
+volC.E1.h: -423.33001176419043
+volC.E1.P: 99957.81661561427
+volC.E1.R: 287.0511382180156
+volC.E1.T: 297.964167298871
+volC.E2.h: -423.33001176419043
+volC.E2.P: 99957.81661561427
+volC.E2.R: 287.0511382180156
+volC.E2.T: 297.964167298871
+volC.F1.Qm: 0.1460344831174502
+volC.F1.Qmh: -22.060926639005995
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+3
+volC.E1.h: -187.15390356021538
+volC.E1.P: 100233.46860401353
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.1865107944563
+volC.E2.h: -187.15390356021538
+volC.E2.P: 100233.46860401353
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.1865107944563
+volC.F1.Qm: 0.14698010516915708
+volC.F1.Qmh: -393.6311436036255
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 116.18900690616135
+
+4
+volC.E1.h: 36.77054289864447
+volC.E1.P: 100513.7316050174
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4095697659837
+volC.E2.h: 36.77054289864447
+volC.E2.P: 100513.7316050174
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4095697659837
+volC.F1.Qm: 0.1479304293938592
+volC.F1.Qmh: -549.7910413423784
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 218.37545929898351
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467207
+volC.F1.Qmh: -22.193691907131143
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100561.52395357055
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4634878559346
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100561.52395357055
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4634878559346
+volC.F1.Qm: 0.14786215503971128
+volC.F1.Qmh: -395.9933837099453
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 116.18900690616135
+
+2
+volC.E1.h: 315.7199262740684
+volC.E1.P: 100847.0379337785
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.68958267671167
+volC.E2.h: 315.7199262740684
+volC.E2.P: 100847.0379337785
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.68958267671167
+volC.F1.Qm: 0.1488308083673245
+volC.F1.Qmh: -557.9365466275079
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 219.6652999233617
+
+3
+volC.E1.h: 543.4271449456363
+volC.E1.P: 101137.30158334138
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9162347728616
+volC.E2.h: 543.4271449456363
+volC.E2.P: 101137.30158334138
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9162347728616
+volC.F1.Qm: 0.14982008559168714
+volC.F1.Qmh: -721.3796577824656
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 324.398097497952
+
+4
+volC.E1.h: 771.6977932896722
+volC.E1.P: 101432.38376478401
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.14334600899343
+volC.E2.h: 771.6977932896722
+volC.E2.P: 101432.38376478401
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.14334600899343
+volC.F1.Qm: 0.15083062485579898
+volC.F1.Qmh: -889.027916378075
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 430.40740145296945
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467207
+volC.F1.Qmh: -22.193691907131143
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100561.52395357055
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4634878559346
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100561.52395357055
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4634878559346
+volC.F1.Qm: 0.14786215503971128
+volC.F1.Qmh: -395.9933837099453
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 116.18900690616135
+
+2
+volC.E1.h: 315.7199262740684
+volC.E1.P: 100847.0379337785
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.68958267671167
+volC.E2.h: 315.7199262740684
+volC.E2.P: 100847.0379337785
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.68958267671167
+volC.F1.Qm: 0.1488308083673245
+volC.F1.Qmh: -557.9365466275079
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 219.6652999233617
+
+3
+volC.E1.h: 543.4271449456363
+volC.E1.P: 101137.30158334138
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9162347728616
+volC.E2.h: 543.4271449456363
+volC.E2.P: 101137.30158334138
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9162347728616
+volC.F1.Qm: 0.14982008559168714
+volC.F1.Qmh: -721.3796577824656
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 324.398097497952
+
+4
+volC.E1.h: 771.6977932896722
+volC.E1.P: 101432.38376478401
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.14334600899343
+volC.E2.h: 771.6977932896722
+volC.E2.P: 101432.38376478401
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.14334600899343
+volC.F1.Qm: 0.15083062485579898
+volC.F1.Qmh: -889.027916378075
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 430.40740145296945
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467207
+volC.F1.Qmh: -22.193691907131143
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100561.52395357055
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4634878559346
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100561.52395357055
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4634878559346
+volC.F1.Qm: 0.14786215503971128
+volC.F1.Qmh: -395.9933837099453
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 116.18900690616135
+
+2
+volC.E1.h: 315.7199262740684
+volC.E1.P: 100847.0379337785
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.68958267671167
+volC.E2.h: 315.7199262740684
+volC.E2.P: 100847.0379337785
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.68958267671167
+volC.F1.Qm: 0.1488308083673245
+volC.F1.Qmh: -557.9365466275079
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 219.6652999233617
+
+3
+volC.E1.h: 543.4271449456363
+volC.E1.P: 101137.30158334138
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9162347728616
+volC.E2.h: 543.4271449456363
+volC.E2.P: 101137.30158334138
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9162347728616
+volC.F1.Qm: 0.14982008559168714
+volC.F1.Qmh: -721.3796577824656
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 324.398097497952
+
+4
+volC.E1.h: 771.6977932896722
+volC.E1.P: 101432.38376478401
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.14334600899343
+volC.E2.h: 771.6977932896722
+volC.E2.P: 101432.38376478401
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.14334600899343
+volC.F1.Qm: 0.15083062485579898
+volC.F1.Qmh: -889.027916378075
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 430.40740145296945
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467207
+volC.F1.Qmh: -22.193691907131143
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100561.52395357055
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4634878559346
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100561.52395357055
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4634878559346
+volC.F1.Qm: 0.14786215503971128
+volC.F1.Qmh: -395.9933837099453
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 116.18900690616135
+
+2
+volC.E1.h: 315.7199262740684
+volC.E1.P: 100847.0379337785
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.68958267671167
+volC.E2.h: 315.7199262740684
+volC.E2.P: 100847.0379337785
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.68958267671167
+volC.F1.Qm: 0.1488308083673245
+volC.F1.Qmh: -557.9365466275079
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 219.6652999233617
+
+3
+volC.E1.h: 543.4271449456363
+volC.E1.P: 101137.30158334138
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9162347728616
+volC.E2.h: 543.4271449456363
+volC.E2.P: 101137.30158334138
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9162347728616
+volC.F1.Qm: 0.14982008559168714
+volC.F1.Qmh: -721.3796577824656
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 324.398097497952
+
+4
+volC.E1.h: 771.6977932896722
+volC.E1.P: 101432.38376478401
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.14334600899343
+volC.E2.h: 771.6977932896722
+volC.E2.P: 101432.38376478401
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.14334600899343
+volC.F1.Qm: 0.15083062485579898
+volC.F1.Qmh: -889.027916378075
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 430.40740145296945
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467207
+volC.F1.Qmh: -22.193691907131143
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100561.52395357055
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4634878559346
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100561.52395357055
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4634878559346
+volC.F1.Qm: 0.14786215503971128
+volC.F1.Qmh: -395.9933837099453
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 116.18900690616135
+
+2
+volC.E1.h: 315.7199262740684
+volC.E1.P: 100847.0379337785
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.68958267671167
+volC.E2.h: 315.7199262740684
+volC.E2.P: 100847.0379337785
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.68958267671167
+volC.F1.Qm: 0.1488308083673245
+volC.F1.Qmh: -557.9365466275079
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 219.6652999233617
+
+3
+volC.E1.h: 543.4271449456363
+volC.E1.P: 101137.30158334138
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9162347728616
+volC.E2.h: 543.4271449456363
+volC.E2.P: 101137.30158334138
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9162347728616
+volC.F1.Qm: 0.14982008559168714
+volC.F1.Qmh: -721.3796577824656
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 324.398097497952
+
+4
+volC.E1.h: 771.6977932896722
+volC.E1.P: 101432.38376478401
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.14334600899343
+volC.E2.h: 771.6977932896722
+volC.E2.P: 101432.38376478401
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.14334600899343
+volC.F1.Qm: 0.15083062485579898
+volC.F1.Qmh: -889.027916378075
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 430.40740145296945
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467207
+volC.F1.Qmh: -22.193691907131143
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100562.64446761814
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47024421584456
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100562.64446761814
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47024421584456
+volC.F1.Qm: 0.14759232258105123
+volC.F1.Qmh: -208.00092956356212
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 65.43574122747647
+
+2
+volC.E1.h: 322.5244378714772
+volC.E1.P: 100848.21870300006
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.7035099493359
+volC.E2.h: 322.5244378714772
+volC.E2.P: 100848.21870300006
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.7035099493359
+volC.F1.Qm: 0.14827923022774392
+volC.F1.Qmh: -286.0476424823111
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 116.4260326677739
+
+3
+volC.E1.h: 557.4538109801321
+volC.E1.P: 101137.41641751425
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9376957576034
+volC.E2.h: 557.4538109801321
+volC.E2.P: 101137.41641751425
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9376957576034
+volC.F1.Qm: 0.14897586655288544
+volC.F1.Qmh: -364.74773467633116
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 167.79033697902526
+
+4
+volC.E1.h: 793.3121472698689
+volC.E1.P: 101430.2779439266
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.17276864856484
+volC.E2.h: 793.3121472698689
+volC.E2.P: 101430.2779439266
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.17276864856484
+volC.F1.Qm: 0.14968241310999378
+volC.F1.Qmh: -444.77732063363885
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 219.53314129519003
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100558.09496998992
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4758405520779
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100558.09496998992
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4758405520779
+volC.F1.Qm: 0.1460901711648625
+volC.F1.Qmh: 65.13440683311347
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+2
+volC.E1.h: 328.16065991729016
+volC.E1.P: 100834.51928803787
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.7201980505186
+volC.E2.h: 328.16065991729016
+volC.E2.P: 100834.51928803787
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.7201980505186
+volC.F1.Qm: 0.1452719693118325
+volC.F1.Qmh: 259.2216147647863
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+3
+volC.E1.h: 574.2610193674985
+volC.E1.P: 101109.89385730577
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.97083640804647
+volC.E2.h: 574.2610193674985
+volC.E2.P: 101109.89385730577
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.97083640804647
+volC.F1.Qm: 0.1444582846993397
+volC.F1.Qmh: 450.94549194353306
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+4
+volC.E1.h: 826.6896734346747
+volC.E1.P: 101384.18615106285
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2275930276372
+volC.E2.h: 826.6896734346747
+volC.E2.P: 101384.18615106285
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2275930276372
+volC.F1.Qm: 0.14364909920307362
+volC.F1.Qmh: 639.691836536428
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100558.09496998992
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4758405520779
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100558.09496998992
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4758405520779
+volC.F1.Qm: 0.1460901711648625
+volC.F1.Qmh: 65.13440683311347
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+2
+volC.E1.h: 328.16065991729016
+volC.E1.P: 100834.51928803787
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.7201980505186
+volC.E2.h: 328.16065991729016
+volC.E2.P: 100834.51928803787
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.7201980505186
+volC.F1.Qm: 0.1452719693118325
+volC.F1.Qmh: 259.2216147647863
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+3
+volC.E1.h: 574.2610193674985
+volC.E1.P: 101109.89385730577
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.97083640804647
+volC.E2.h: 574.2610193674985
+volC.E2.P: 101109.89385730577
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.97083640804647
+volC.F1.Qm: 0.1444582846993397
+volC.F1.Qmh: 450.94549194353306
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+4
+volC.E1.h: 826.6896734346747
+volC.E1.P: 101384.18615106285
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2275930276372
+volC.E2.h: 826.6896734346747
+volC.E2.P: 101384.18615106285
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2275930276372
+volC.F1.Qm: 0.14364909920307362
+volC.F1.Qmh: 639.691836536428
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100286.27986478602
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.254662305444
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100286.27986478602
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.254662305444
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 298.0
+
+1
+volC.E1.h: 105.40705339433386
+volC.E1.P: 100569.39857874303
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.50941061156624
+volC.E2.h: 105.40705339433386
+volC.E2.P: 100569.39857874303
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.50941061156624
+volC.F1.Qm: 0.14608869545872877
+volC.F1.Qmh: 66.89184130058973
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 298.0
+
+2
+volC.E1.h: 361.9700053620635
+volC.E1.P: 100851.51329905017
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.77059869525226
+volC.E2.h: 361.9700053620635
+volC.E2.P: 100851.51329905017
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.77059869525226
+volC.F1.Qm: 0.1452690182611116
+volC.F1.Qmh: 262.7139033860031
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 298.0
+
+3
+volC.E1.h: 625.0214581742513
+volC.E1.P: 101132.60337338867
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.03809829764697
+volC.E2.h: 625.0214581742513
+volC.E2.P: 101132.60337338867
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.03809829764697
+volC.F1.Qm: 0.14445385877946534
+volC.F1.Qmh: 456.1490049371461
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 298.0
+
+4
+volC.E1.h: 894.4324677848701
+volC.E1.P: 101412.63579989188
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.31174701972634
+volC.E2.h: 894.4324677848701
+volC.E2.P: 101412.63579989188
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.31174701972634
+volC.F1.Qm: 0.14364319900727215
+volC.F1.Qmh: 646.5830235325989
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 298.0
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100558.09496998992
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4758405520779
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100558.09496998992
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4758405520779
+volC.F1.Qm: 0.1460901711648625
+volC.F1.Qmh: 65.13440683311347
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+2
+volC.E1.h: 328.16065991729016
+volC.E1.P: 100834.51928803787
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.7201980505186
+volC.E2.h: 328.16065991729016
+volC.E2.P: 100834.51928803787
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.7201980505186
+volC.F1.Qm: 0.1452719693118325
+volC.F1.Qmh: 259.2216147647863
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+3
+volC.E1.h: 574.2610193674985
+volC.E1.P: 101109.89385730577
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.97083640804647
+volC.E2.h: 574.2610193674985
+volC.E2.P: 101109.89385730577
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.97083640804647
+volC.F1.Qm: 0.1444582846993397
+volC.F1.Qmh: 450.94549194353306
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+4
+volC.E1.h: 826.6896734346747
+volC.E1.P: 101384.18615106285
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2275930276372
+volC.E2.h: 826.6896734346747
+volC.E2.P: 101384.18615106285
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2275930276372
+volC.F1.Qm: 0.14364909920307362
+volC.F1.Qmh: 639.691836536428
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100257.87073318026
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.2182084467683
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100257.87073318026
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.2182084467683
+volC.F1.Qm: 0.14313973395626028
+volC.F1.Qmh: -31.46758787342226
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 68.69374694181722
+volC.E1.P: 100500.66396355772
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4473056513116
+volC.E2.h: 68.69374694181722
+volC.E2.P: 100500.66396355772
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4473056513116
+volC.F1.Qm: 0.1387005541490761
+volC.F1.Qmh: 545.1037475547332
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+2
+volC.E1.h: 299.42240105303955
+volC.E1.P: 100730.79870754381
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.69222032323927
+volC.E2.h: 299.42240105303955
+volC.E2.P: 100730.79870754381
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.69222032323927
+volC.F1.Qm: 0.13444390754130736
+volC.F1.Qmh: 1188.2360337343102
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+3
+volC.E1.h: 546.0836146755887
+volC.E1.P: 100947.82741552712
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9503039789273
+volC.E2.h: 546.0836146755887
+volC.E2.P: 100947.82741552712
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9503039789273
+volC.F1.Qm: 0.13029638081819508
+volC.F1.Qmh: 1776.1598074136439
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+4
+volC.E1.h: 806.0104814336478
+volC.E1.P: 101151.00692050958
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.21862906742024
+volC.E2.h: 806.0104814336478
+volC.E2.P: 101151.00692050958
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.21862906742024
+volC.F1.Qm: 0.12621298204768439
+volC.F1.Qmh: 2307.55167410177
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100558.09496971619
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4758405518441
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100558.09496971619
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4758405518441
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+2
+volC.E1.h: 328.1606596817987
+volC.E1.P: 100836.26909668703
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.7217131652108
+volC.E2.h: 328.1606596817987
+volC.E2.P: 100836.26909668703
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.7217131652108
+volC.F1.Qm: 0.1455608083050447
+volC.F1.Qmh: 260.2794177707677
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+3
+volC.E1.h: 575.786948403264
+volC.E1.P: 101114.78979064719
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.97335849715057
+volC.E2.h: 575.786948403264
+volC.E2.P: 101114.78979064719
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.97335849715057
+volC.F1.Qm: 0.14511163865691112
+volC.F1.Qmh: 412.603171579155
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+4
+volC.E1.h: 829.2297913161323
+volC.E1.P: 101393.73880414772
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2302969464224
+volC.E2.h: 829.2297913161323
+volC.E2.P: 101393.73880414772
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2302969464224
+volC.F1.Qm: 0.144717866862618
+volC.F1.Qmh: 552.3987325600729
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100558.09496971619
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4758405518441
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100558.09496971619
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4758405518441
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+2
+volC.E1.h: 328.1606596817987
+volC.E1.P: 100836.26909668703
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.7217131652108
+volC.E2.h: 328.1606596817987
+volC.E2.P: 100836.26909668703
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.7217131652108
+volC.F1.Qm: 0.1455608083050447
+volC.F1.Qmh: 260.2794177707677
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+3
+volC.E1.h: 575.786948403264
+volC.E1.P: 101114.78979064719
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.97335849715057
+volC.E2.h: 575.786948403264
+volC.E2.P: 101114.78979064719
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.97335849715057
+volC.F1.Qm: 0.14511163865691112
+volC.F1.Qmh: 412.603171579155
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+4
+volC.E1.h: 829.2297913161323
+volC.E1.P: 101393.73880414772
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2302969464224
+volC.E2.h: 829.2297913161323
+volC.E2.P: 101393.73880414772
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2302969464224
+volC.F1.Qm: 0.144717866862618
+volC.F1.Qmh: 552.3987325600729
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100558.09496971619
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4758405518441
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100558.09496971619
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4758405518441
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+2
+volC.E1.h: 328.1606596817987
+volC.E1.P: 100836.26909668703
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.7217131652108
+volC.E2.h: 328.1606596817987
+volC.E2.P: 100836.26909668703
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.7217131652108
+volC.F1.Qm: 0.1455608083050447
+volC.F1.Qmh: 260.2794177707677
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+3
+volC.E1.h: 575.786948403264
+volC.E1.P: 101114.78979064719
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.97335849715057
+volC.E2.h: 575.786948403264
+volC.E2.P: 101114.78979064719
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.97335849715057
+volC.F1.Qm: 0.14511163865691112
+volC.F1.Qmh: 412.603171579155
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+4
+volC.E1.h: 829.2297913161323
+volC.E1.P: 101393.73880414772
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2302969464224
+volC.E2.h: 829.2297913161323
+volC.E2.P: 101393.73880414772
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2302969464224
+volC.F1.Qm: 0.144717866862618
+volC.F1.Qmh: 552.3987325600729
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100558.09496971619
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4758405518441
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100558.09496971619
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4758405518441
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+2
+volC.E1.h: 328.1606596817987
+volC.E1.P: 100836.26909668703
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.7217131652108
+volC.E2.h: 328.1606596817987
+volC.E2.P: 100836.26909668703
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.7217131652108
+volC.F1.Qm: 0.1455608083050447
+volC.F1.Qmh: 260.2794177707677
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+3
+volC.E1.h: 575.786948403264
+volC.E1.P: 101114.78979064719
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.97335849715057
+volC.E2.h: 575.786948403264
+volC.E2.P: 101114.78979064719
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.97335849715057
+volC.F1.Qm: 0.14511163865691112
+volC.F1.Qmh: 412.603171579155
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+4
+volC.E1.h: 829.2297913161323
+volC.E1.P: 101393.73880414772
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2302969464224
+volC.E2.h: 829.2297913161323
+volC.E2.P: 101393.73880414772
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2302969464224
+volC.F1.Qm: 0.144717866862618
+volC.F1.Qmh: 552.3987325600729
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100558.09496971619
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4758405518441
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100558.09496971619
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4758405518441
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+2
+volC.E1.h: 328.1606596817987
+volC.E1.P: 100836.26909668703
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.7217131652108
+volC.E2.h: 328.1606596817987
+volC.E2.P: 100836.26909668703
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.7217131652108
+volC.F1.Qm: 0.1455608083050447
+volC.F1.Qmh: 260.2794177707677
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+3
+volC.E1.h: 575.786948403264
+volC.E1.P: 101114.78979064719
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.97335849715057
+volC.E2.h: 575.786948403264
+volC.E2.P: 101114.78979064719
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.97335849715057
+volC.F1.Qm: 0.14511163865691112
+volC.F1.Qmh: 412.603171579155
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+4
+volC.E1.h: 829.2297913161323
+volC.E1.P: 101393.73880414772
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2302969464224
+volC.E2.h: 829.2297913161323
+volC.E2.P: 101393.73880414772
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2302969464224
+volC.F1.Qm: 0.144717866862618
+volC.F1.Qmh: 552.3987325600729
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100558.09496971619
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4758405518441
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100558.09496971619
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4758405518441
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+2
+volC.E1.h: 328.1606596817987
+volC.E1.P: 100836.26909668703
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.7217131652108
+volC.E2.h: 328.1606596817987
+volC.E2.P: 100836.26909668703
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.7217131652108
+volC.F1.Qm: 0.1455608083050447
+volC.F1.Qmh: 260.2794177707677
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+3
+volC.E1.h: 575.786948403264
+volC.E1.P: 101114.78979064719
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.97335849715057
+volC.E2.h: 575.786948403264
+volC.E2.P: 101114.78979064719
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.97335849715057
+volC.F1.Qm: 0.14511163865691112
+volC.F1.Qmh: 412.603171579155
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+4
+volC.E1.h: 829.2297913161323
+volC.E1.P: 101393.73880414772
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2302969464224
+volC.E2.h: 829.2297913161323
+volC.E2.P: 101393.73880414772
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2302969464224
+volC.F1.Qm: 0.144717866862618
+volC.F1.Qmh: 552.3987325600729
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 74, in <module>
+    sc.initializeAnalysis()
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-3. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100558.09496971619
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4758405518441
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100558.09496971619
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4758405518441
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+2
+volC.E1.h: 328.1606596817987
+volC.E1.P: 100836.26909668703
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.7217131652108
+volC.E2.h: 328.1606596817987
+volC.E2.P: 100836.26909668703
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.7217131652108
+volC.F1.Qm: 0.1455608083050447
+volC.F1.Qmh: 260.2794177707677
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+3
+volC.E1.h: 575.786948403264
+volC.E1.P: 101114.78979064719
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.97335849715057
+volC.E2.h: 575.786948403264
+volC.E2.P: 101114.78979064719
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.97335849715057
+volC.F1.Qm: 0.14511163865691112
+volC.F1.Qmh: 412.603171579155
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+4
+volC.E1.h: 829.2297913161323
+volC.E1.P: 101393.73880414772
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2302969464224
+volC.E2.h: 829.2297913161323
+volC.E2.P: 101393.73880414772
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2302969464224
+volC.F1.Qm: 0.144717866862618
+volC.F1.Qmh: 552.3987325600729
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 84, in <module>
+    volC.F2 = FlowSource(-0.1, sc.getParameterValue("E2T"))
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\Library_ThermoFluid_class.py", line 36, in __init__
+    FluidBGM.__init__(self, nC, nH, FAR, T)
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\Fluid_properties_class.py", line 219, in __init__
+    s_T = [math.log(T), T, T**2 / 2, T**3 / 3, T**4 / 4, 0, 1]
+ValueError: math domain error
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100558.09496971619
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.4758405518441
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100558.09496971619
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.4758405518441
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+2
+volC.E1.h: 328.1606596817987
+volC.E1.P: 100836.26909668703
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.7217131652108
+volC.E2.h: 328.1606596817987
+volC.E2.P: 100836.26909668703
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.7217131652108
+volC.F1.Qm: 0.1455608083050447
+volC.F1.Qmh: 260.2794177707677
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+3
+volC.E1.h: 575.786948403264
+volC.E1.P: 101114.78979064719
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.97335849715057
+volC.E2.h: 575.786948403264
+volC.E2.P: 101114.78979064719
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.97335849715057
+volC.F1.Qm: 0.14511163865691112
+volC.F1.Qmh: 412.603171579155
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+4
+volC.E1.h: 829.2297913161323
+volC.E1.P: 101393.73880414772
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2302969464224
+volC.E2.h: 829.2297913161323
+volC.E2.P: 101393.73880414772
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2302969464224
+volC.F1.Qm: 0.144717866862618
+volC.F1.Qmh: 552.3987325600729
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 81, in <module>
+    sc.updateInputs()
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-3. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+2
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+3
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+4
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+2
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+3
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+4
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+2
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+3
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+4
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+2
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+3
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+4
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+2
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+3
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+4
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+2
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+3
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+4
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+2
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+3
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+4
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+2
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+3
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+4
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+2
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+3
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+4
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+2
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+3
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+4
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+2
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+3
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+4
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+2
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+3
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+4
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+2
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+3
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+4
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+2
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+3
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+4
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+2
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+3
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+4
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+0
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+1
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+2
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+3
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+4
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+1
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+2
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+3
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+4
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+5
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+1
+volC.E1.h: -151.06655748740656
+volC.E1.P: 100280.64107804808
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.23789237004905
+volC.E2.h: -151.06655748740656
+volC.E2.P: 100280.64107804808
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.23789237004905
+volC.F1.Qm: 0.14691333592467212
+volC.F1.Qmh: -22.193691907131154
+volC.F2.Qm: -0.1
+volC.F2.Qmh: 15.106655748740657
+
+2
+volC.E1.h: 88.51775682517017
+volC.E1.P: 100557.61742361181
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.47442310280684
+volC.E2.h: 88.51775682517017
+volC.E2.P: 100557.61742361181
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.47442310280684
+volC.F1.Qm: 0.14609017111934555
+volC.F1.Qmh: 65.1344067657323
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -8.851775682517017
+
+3
+volC.E1.h: 326.73310817661564
+volC.E1.P: 100834.83700839494
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.71746909762584
+volC.E2.h: 326.73310817661564
+volC.E2.P: 100834.83700839494
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.71746909762584
+volC.F1.Qm: 0.14556093329108774
+volC.F1.Qmh: 260.1315761146749
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -32.673310817661566
+
+4
+volC.E1.h: 571.5125884370319
+volC.E1.P: 101111.91095463013
+volC.E1.R: 287.0511382180156
+volC.E1.T: 298.9648401027319
+volC.E2.h: 571.5125884370319
+volC.E2.P: 101111.91095463013
+volC.E2.R: 287.0511382180156
+volC.E2.T: 298.9648401027319
+volC.F1.Qm: 0.14511201285593422
+volC.F1.Qmh: 412.16244673122
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -57.1512588437032
+
+5
+volC.E1.h: 820.65050551925
+volC.E1.P: 101388.9101772627
+volC.E1.R: 287.0511382180156
+volC.E1.T: 299.2160309953491
+volC.E2.h: 820.65050551925
+volC.E2.P: 101388.9101772627
+volC.E2.R: 287.0511382180156
+volC.E2.T: 299.2160309953491
+volC.F1.Qm: 0.14471861794912477
+volC.F1.Qmh: 551.5177275555245
+volC.F2.Qm: -0.1
+volC.F2.Qmh: -82.06505055192501
+
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 79, in <module>
+    sc.updateInputs()
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-2. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 82, in <module>
+    volC.F2 = FlowSource(-0.1, volC.E1.T)
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\Library_ThermoFluid_class.py", line 36, in __init__
+    FluidBGM.__init__(self, nC, nH, FAR, T)
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\Fluid_properties_class.py", line 219, in __init__
+    s_T = [math.log(T), T, T**2 / 2, T**3 / 3, T**4 / 4, 0, 1]
+ValueError: math domain error
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 82, in <module>
+    volC.F2 = FlowSource(-0.1, volC.E1.T)
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\Library_ThermoFluid_class.py", line 36, in __init__
+    FluidBGM.__init__(self, nC, nH, FAR, T)
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\Fluid_properties_class.py", line 219, in __init__
+    s_T = [math.log(T), T, T**2 / 2, T**3 / 3, T**4 / 4, 0, 1]
+ValueError: math domain error
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+Traceback (most recent call last):
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\VolumeCompressor.py", line 82, in <module>
+    volC.F2 = FlowSource(-0.1, volC.E1.T)
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\Library_ThermoFluid_class.py", line 36, in __init__
+    FluidBGM.__init__(self, nC, nH, FAR, T)
+  File "C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model\Fluid_properties_class.py", line 219, in __init__
+    s_T = [math.log(T), T, T**2 / 2, T**3 / 3, T**4 / 4, 0, 1]
+ValueError: math domain error
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\ANSYSDev\develop\SystemCoupling\Tests\Cosimulation\cosim-parameters-simple-engine-model>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+Traceback (most recent call last):
+  File "C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel\VolumeCompressor.py", line 79, in <module>
+    sc.updateInputs()
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-3. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+Traceback (most recent call last):
+  File "C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel\VolumeCompressor.py", line 79, in <module>
+    sc.updateInputs()
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-3. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+Traceback (most recent call last):
+  File "C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel\VolumeCompressor.py", line 79, in <module>
+    sc.updateInputs()
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-3. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+Traceback (most recent call last):
+  File "C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel\VolumeCompressor.py", line 79, in <module>
+    sc.updateInputs()
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-3. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+Traceback (most recent call last):
+  File "C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel\VolumeCompressor.py", line 79, in <module>
+    sc.updateInputs()
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-3. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+Traceback (most recent call last):
+  File "C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel\VolumeCompressor.py", line 79, in <module>
+    sc.updateInputs()
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-3. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+Traceback (most recent call last):
+  File "C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel\VolumeCompressor.py", line 79, in <module>
+    sc.updateInputs()
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-3. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+Traceback (most recent call last):
+  File "C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel\VolumeCompressor.py", line 79, in <module>
+    sc.updateInputs()
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-3. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+Traceback (most recent call last):
+  File "C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel\VolumeCompressor.py", line 79, in <module>
+    sc.updateInputs()
+RuntimeError: serveUntilTokenAssignedAll: Error when making a remote call to participant DEFAULT-3. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\automatedSimpleEngineModel>REM
