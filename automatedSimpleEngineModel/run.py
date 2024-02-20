@@ -14,9 +14,9 @@ compressor = cosimSetup.addCompressor()
 volumeCompressor = cosimSetup.addVolCompressor()
 
 # add data transfers
-cosimSetup.connect(volumeAirFilter, airFilter)
-cosimSetup.connect(compressor, volumeAirFilter)
-cosimSetup.connect(volumeCompressor, compressor)
+cosimSetup.connect(volumeAirFilter, 1, airFilter, 2)
+cosimSetup.connect(compressor, 1, volumeAirFilter, 2)
+cosimSetup.connect(volumeCompressor, 1, compressor, 2)
 
 cosimSetup.analysisType("Transient")
 cosimSetup.minIterations(1)
