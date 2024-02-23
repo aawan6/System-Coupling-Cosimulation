@@ -43,7 +43,6 @@ class AirFilter(Participant):
                     Variable("F2Qm", QuantityType.Qm),
                     Variable("F2Qmh", QuantityType.Qmh)]}}
 
-
 class VolumeAirFilter(Participant):
     def __init__(self, participantName):
         Participant.__init__(self, participantName)
@@ -67,6 +66,24 @@ class VolumeAirFilter(Participant):
                 1: [Variable("F1Qm", QuantityType.Qm),
                     Variable("F1Qmh", QuantityType.Qmh)],
 
+                2: [Variable("F2Qm", QuantityType.Qm),
+                    Variable("F2Qmh", QuantityType.Qmh)]}}
+
+class RCAirFilter(Participant):
+    def __init__(self, participantName):
+        Participant.__init__(self, participantName)
+        self.ports = [2]
+        self.inputs = {2: TransferType.flow}
+        self.outputs = {2: TransferType.effort}
+        self.variables = {
+            TransferType.effort : {
+                2 : [Variable("E2h", QuantityType.enthalpy), 
+                    Variable("E2P", QuantityType.pressure),
+                    Variable("E2T", QuantityType.temp),
+                    Variable("E2R", QuantityType.R),
+                    Variable("E2gamma", QuantityType.gamma)]},
+
+            TransferType.flow : {
                 2: [Variable("F2Qm", QuantityType.Qm),
                     Variable("F2Qmh", QuantityType.Qmh)]}}
 
@@ -94,7 +111,6 @@ class Compressor(Participant):
                 2: [Variable("F2Qm", QuantityType.Qm),
                     Variable("F2Qmh", QuantityType.Qmh)]}}
         
-
 class VolumeCompressor(Participant):
     def __init__(self, participantName):
         Participant.__init__(self, participantName)
@@ -113,6 +129,23 @@ class VolumeCompressor(Participant):
                 1 : [
                     Variable("F1Qm", QuantityType.Qm),
                     Variable("F1Qmh", QuantityType.Qmh)]}}
+        
+class RCCompressor(Participant):
+    def __init__(self, participantName):
+        Participant.__init__(self, participantName)
+        self.ports = [1]
+        self.inputs = {1: TransferType.effort}
+        self.outputs = {1: TransferType.flow}
+        self.variables = {
+            TransferType.effort : {
+                1 : [Variable("E1h", QuantityType.enthalpy), 
+                    Variable("E1P", QuantityType.pressure),
+                    Variable("E1T", QuantityType.temp),
+                    Variable("E1gamma", QuantityType.gamma)]},
+
+            TransferType.flow : {
+                1: [Variable("F1Qm", QuantityType.Qm),
+                    Variable("F1Qmh", QuantityType.Qmh)]}}
 
 class cosimulation:
 
@@ -125,23 +158,39 @@ class cosimulation:
 
     def addFilter(self):
         airFilterName = self.setup.add_participant(executable=self.getScriptName("AirFilter"))
+        self.setup.coupling_participant[airFilterName].display_name = "Air Filter"
         airFilter = AirFilter(airFilterName)
         return airFilter
 
     def addVolFilter(self):
         volumeAirFilterName = self.setup.add_participant(executable=self.getScriptName("VolumeAirFilter"))
+        self.setup.coupling_participant[volumeAirFilterName].display_name = "Volume Air Filter"
         volumeAirFilter = VolumeAirFilter(volumeAirFilterName)
         return volumeAirFilter
+    
+    def addRCAirFilter(self):
+        RCAirFilterName = self.setup.add_participant(executable=self.getScriptName("RCAirFilter"))
+        self.setup.coupling_participant[RCAirFilterName].display_name = "RC Air Filter"
+        rcAirFilter = RCAirFilter(RCAirFilterName)
+        return rcAirFilter
         
     def addCompressor(self):
         compressorName = self.setup.add_participant(executable=self.getScriptName("Compressor"))
+        self.setup.coupling_participant[compressorName].display_name = "Compressor"
         compressor = Compressor(compressorName)
         return compressor
 
     def addVolCompressor(self):
         volumeCompressorName = self.setup.add_participant(executable=self.getScriptName("VolumeCompressor"))
+        self.setup.coupling_participant[volumeCompressorName].display_name = "Volume Compressor"
         volumeCompressor = VolumeCompressor(volumeCompressorName)
         return volumeCompressor
+    
+    def addRCCompressor(self):
+        RCCompressorName = self.setup.add_participant(executable=self.getScriptName("RCCompressor"))
+        self.setup.coupling_participant[RCCompressorName].display_name = "RC Compressor"
+        rcCompressor = RCCompressor(RCCompressorName)
+        return rcCompressor
 
     def connect(self, sideOneParticipant, sideOnePort, sideTwoParticipant, sideTwoPort):
         interface2 = self.setup.add_interface(
@@ -184,6 +233,12 @@ class cosimulation:
                         )
                     break
     
+    def setSimultaneousUpdates(self):
+        self.setup.activate_hidden.beta_features = True
+        self.setup.activate_hidden.alpha_features = True
+        self.setup.analysis_control.allow_simultaneous_update = True
+        self.setup.analysis_control.simultaneous_participants = "All"
+
     def analysisType(self, type):
         self.setup.analysis_control.analysis_type = type
 
