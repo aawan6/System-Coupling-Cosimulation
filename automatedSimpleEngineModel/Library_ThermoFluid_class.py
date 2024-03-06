@@ -339,8 +339,8 @@ class Engine_Tf:
         )
 
         # inlet massic flow calculation
-        Qv_theor = self.Fm.N * self.Vcyl / 120
-        self.Qm = Qv_theor * self.E1.P / self.E1.T / self.E1.R * Eta_vol
+        self.Qv_theor = self.Fm.N * self.Vcyl / 120
+        self.Qm = self.Qv_theor * self.E1.P / self.E1.T / self.E1.R * Eta_vol
 
         # fuel injected massic flow calculation
         if self.Ffuel.Qm > (self.Qm / self.Fuel.Ks):
@@ -354,7 +354,7 @@ class Engine_Tf:
         Qm2 = self.Qm + self.Ffuel.Qm
 
         # engine pumping calculation
-        Pwi_bp = (self.E2.P - self.E1.P) * Qv_theor
+        Pwi_bp = (self.E2.P - self.E1.P) * self.Qv_theor
 
         # Frictions calculation
         # self.Pwf = 0

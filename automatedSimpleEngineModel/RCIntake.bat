@@ -37,6 +37,5 @@ set PYTHON_DLL_PATH=%SYSC_ROOT%\runTime\winx64\cnlauncher\fluent\fluent24.2.0\mu
 
 set PYTHONPATH=%SYSC_ROOT%\runTime\winx64\%BINDIRNAME%;%PYTHONPATH%
 
-"%SYSC_PYTHON%\python.exe" -B "RCCompressor.py" %*
-
+"%SYSC_PYTHON%\python.exe" -B "RCIntake.py" %*
 exit /B %errorlevel%

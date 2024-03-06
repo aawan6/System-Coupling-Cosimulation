@@ -6,6 +6,7 @@ SETLOCAL
 
 REM Get SyC root from location of ScdtServer.bat
 set SCDTSERVERBATROOT=%~dp0
+set SYSC_PARTLIB_DEBUG=5
 if not defined SYSC_ROOT set SYSC_ROOT=%SCDTSERVERBATROOT%..\..
 
 if "%SYSC_DEPENDENCIES%" == "" if exist "%SYSC_ROOT%\..\Core_Dependencies" set SYSC_DEPENDENCIES=%SYSC_ROOT%\..\Core_Dependencies
@@ -37,6 +38,5 @@ set PYTHON_DLL_PATH=%SYSC_ROOT%\runTime\winx64\cnlauncher\fluent\fluent24.2.0\mu
 
 set PYTHONPATH=%SYSC_ROOT%\runTime\winx64\%BINDIRNAME%;%PYTHONPATH%
 
-"%SYSC_PYTHON%\python.exe" -B "RCCompressor.py" %*
-
+"%SYSC_PYTHON%\python.exe" -B "TurboShaft.py" %*
 exit /B %errorlevel%

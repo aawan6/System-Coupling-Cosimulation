@@ -32,7 +32,6 @@ Outputs:
     - E2T
 
 """
-
 import argparse
 import os
 import sys
@@ -47,7 +46,6 @@ if sys.platform.startswith("win"):
 from pyExt import SystemCouplingParticipant as sysc
 
 from Library_ThermoFluid_class import EffortSource, PressureLosses_R, FlowSource, Volume_C
-
 # initial values
 pAir = 1e5
 tAir = 298
@@ -79,7 +77,7 @@ if args.scsetup:
     sc.addOutputParameter(sysc.Parameter("E2P"))
     sc.addOutputParameter(sysc.Parameter("E2T"))
 
-    sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
 else:
     # solve mode
 

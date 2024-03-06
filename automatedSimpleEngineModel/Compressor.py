@@ -159,7 +159,3 @@ else:
     #plt.show()
 
 sc.disconnect()
-
-
-
-
