@@ -24,8 +24,8 @@ import argparse
 import math
 import os
 import sys
-#import matplotlib.pyplot as plt
-#import numpy as np
+import matplotlib.pyplot as plt
+import numpy as np
 
 parameters = {}
 
@@ -44,8 +44,8 @@ from EffortFlowPort_class import FlowM
 import ModelSimple_init as config
 
 #Creation of vectors for saving / plots
-#result_simu = np.zeros((7, 8))
-#incr_save = 1
+result_simu = np.zeros((12, 12))
+incr_save = 1
 
 # initial values
 pAir = 1e5
@@ -81,6 +81,7 @@ if args.scsetup:
     sc.addOutputParameter(sysc.Parameter("F2Qmh"))
 
     sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    #sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
 else:
     # solve mode
 
@@ -115,7 +116,7 @@ else:
         )
         while sc.doIteration():
             if multiIteration:
-                raise RuntimeError("participant does not support multiple iterations")  
+                raise RuntimeError("participant does not support multiple iterations") 
 
             sc.updateInputs()
             compressor.E1.h = sc.getParameterValue("E1h")
@@ -135,16 +136,20 @@ else:
             sc.updateOutputs(sysc.Converged)
             multiIteration = True
              
-            #result_simu[incr_save, 0] = startTime + tsSize
-            #result_simu[incr_save, 1] = pAir
-            #result_simu[incr_save, 2] = compressor.E1.P
-            #result_simu[incr_save, 3] = compressor.E2.P
-            #result_simu[incr_save, 4] = compressor.E1.T
-            #result_simu[incr_save, 5] = compressor.E2.T
-            #result_simu[incr_save, 6] = compressor.F2.Qm
-            #result_simu[incr_save, 7] = n
-            #incr_save = incr_save +1     
+            result_simu[incr_save, 0] = startTime + tsSize
+            result_simu[incr_save, 2] = compressor.E1.P
+            result_simu[incr_save, 3] = compressor.E2.P
+            result_simu[incr_save, 4] = compressor.E1.T
+            result_simu[incr_save, 5] = compressor.E2.T
+            result_simu[incr_save, 7] = compressor.F2.Qm
+            incr_save = incr_save +1     
 
+    print(f"result_simu[incr_save, 0]: {result_simu[:, 0]}")
+    print(f"result_simu[incr_save, 2]: {result_simu[:, 2]}")
+    print(f"result_simu[incr_save, 3]: {result_simu[:, 3]}")
+    print(f"result_simu[incr_save, 4]: {result_simu[:, 4]}")
+    print(f"result_simu[incr_save, 5]: {result_simu[:, 5]}")
+    print(f"result_simu[incr_save, 7]: {result_simu[:, 7]}")
     #plt.figure(1)
     #plt.subplot(221)
     #plt.plot(result_simu[0:incr_save, 0],result_simu[0:incr_save, 2],'r',result_simu[0:incr_save, 0],result_simu[0:incr_save, 3],'g')

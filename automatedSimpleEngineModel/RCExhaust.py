@@ -71,7 +71,8 @@ if args.scsetup:
     sc.addOutputParameter(sysc.Parameter("E1P"))
     sc.addOutputParameter(sysc.Parameter("E1T"))
     
-    sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
+    sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    #sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
 else:
     # solve mode
 
@@ -90,15 +91,48 @@ else:
     sc.setParameterValue("E1h", volumeExhaust.E1.h)
     sc.setParameterValue("E1P", volumeExhaust.E1.P)
     sc.setParameterValue("E1T", volumeExhaust.E1.T)
-
+    i = 1
     sc.initializeAnalysis()
     while sc.doTimeStep():
         multiIteration = False
         while sc.doIteration():
             if multiIteration:
                 raise RuntimeError("participant does not support multiple iterations")
+            print(i)
+            i +=1
+            print(f"exhaust.E1.h: {exhaust.E1.h}")
+            print(f"exhaust.E1.P: {exhaust.E1.P}")
+            print(f"exhaust.E1.T: {exhaust.E1.T}")
+            print(f"exhaust.E1.R: {exhaust.E1.R}")
+            print(f"volumeExhaust.F2.Qm: {volumeExhaust.F2.Qm}")
+            print(f"volumeExhaust.F2.Qmh: {volumeExhaust.F2.Qmh}")
+            print(f"volumeExhaust.FAR: {volumeExhaust.FAR}")
+            print(f"volumeExhaust.F1.Qm: {volumeExhaust.F1.Qm}")
+            print(f"volumeExhaust.F1.Qmh: {volumeExhaust.F1.Qmh}")
+            print()
 
+            sc.updateInputs()
+            volumeExhaust.F1.Qm = sc.getParameterValue("F1Qm")
+            volumeExhaust.F1.Qmh = sc.getParameterValue("F1Qmh")
+
+            volumeExhaust.F2.Qm = exhaust.F1.Qm 
+            volumeExhaust.F2.Qmh = exhaust.F1.Qmh
+
+            volumeExhaust.FAR = sc.getParameterValue("FAR")
+            volumeExhaust.Solve(sc.getCurrentTimeStep().timeStepSize, 'Trapezoidal')
+            
             exhaust.E1.h = volumeExhaust.E2.h
+            exhaust.E1.P = volumeExhaust.E2.P
+            exhaust.E1.T = volumeExhaust.E2.T
+            exhaust.E1.R = volumeExhaust.E2.R
+
+            exhaust.Solve()
+
+            sc.setParameterValue("E1h", volumeExhaust.E1.h)
+            sc.setParameterValue("E1P", volumeExhaust.E1.P)
+            sc.setParameterValue("E1T", volumeExhaust.E1.T)
+
+            """exhaust.E1.h = volumeExhaust.E2.h
             exhaust.E1.P = volumeExhaust.E2.P
             exhaust.E1.T = volumeExhaust.E2.T
             exhaust.E1.R = volumeExhaust.E2.R
@@ -116,7 +150,7 @@ else:
 
             sc.setParameterValue("E1h", volumeExhaust.E1.h)
             sc.setParameterValue("E1P", volumeExhaust.E1.P)
-            sc.setParameterValue("E1T", volumeExhaust.E1.T)
+            sc.setParameterValue("E1T", volumeExhaust.E1.T)"""
 
             sc.updateOutputs(sysc.Converged)
             multiIteration = True

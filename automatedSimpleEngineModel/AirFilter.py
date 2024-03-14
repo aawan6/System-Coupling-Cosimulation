@@ -19,8 +19,8 @@ Outputs:
 import argparse
 import os
 import sys
-#import matplotlib.pyplot as plt
-#import numpy as np
+import matplotlib.pyplot as plt
+import numpy as np
 
 if sys.platform.startswith("win"):
     for p in os.environ["PYTHON_DLL_PATH"].split(os.pathsep):
@@ -33,8 +33,8 @@ from pyExt import SystemCouplingParticipant as sysc
 
 from Library_ThermoFluid_class import EffortSource, PressureLosses_R
 
-#result_simu = np.zeros((7, 3))
-#incr_save = 1
+result_simu = np.zeros((12, 12))
+incr_save = 1
 
 # initial values
 pAir = 1e5
@@ -67,6 +67,7 @@ if args.scsetup:
     sc.addOutputParameter(sysc.Parameter("F2Qmh"))
 
     sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    #sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
 else:
     # solve mode
 
@@ -90,10 +91,6 @@ else:
             if multiIteration:
                 raise RuntimeError("participant does not support multiple iterations")
             
-            #result_simu[incr_save, 0] = startTime + tsSize
-            #result_simu[incr_save, 1] = pAir
-            #result_simu[incr_save, 2] = airFilter.E2.P
-            #incr_save = incr_save +1
 
             sc.updateInputs()
             airFilter.E2.h = sc.getParameterValue("E2h")
@@ -109,6 +106,15 @@ else:
             sc.setParameterValue("F2Qmh", airFilter.F2.Qmh)
             sc.updateOutputs(sysc.Converged)
             multiIteration = True
+
+            result_simu[incr_save, 0] = startTime + tsSize
+            result_simu[incr_save, 1] = pAir
+            result_simu[incr_save, 6] = airFilter.E2.P
+            incr_save = incr_save +1
+
+    print(f"result_simu[incr_save, 0]: {result_simu[:, 0]}")
+    print(f"result_simu[incr_save, 1]: {result_simu[:, 1]}")
+    print(f"result_simu[incr_save, 6]: {result_simu[:, 6]}")
 
     #plt.figure(1)
     #plt.plot(result_simu[0:incr_save, 0],result_simu[0:incr_save, 1],'r',result_simu[0:incr_save, 0],result_simu[0:incr_save, 2],'b')

@@ -57,6 +57,18 @@ class PressureLosses_R:
         self.K_PressureLosses = K_PressureLosses
 
     def Solve(self):
+        #print(f"self.E1.P: {self.E1.P}")
+        #print(f"self.E2.P: {self.E2.P}")
+        #print(f"self.E1.T: {self.E1.T}")
+        #print(f"self.E1.R: {self.E1.R}")
+        #print(f"self.K_PressureLosses: {self.K_PressureLosses}")
+        #print(f"self.E2.T: {self.E2.T}")
+        #print(f"self.E2.R: {self.E2.R}")
+        #print(f"self.E1.h: {self.E1.h}")
+        #print(f"self.E2.h: {self.E2.h}")
+        #print(f"self.Qm: {self.Qm}")
+        #print(f"self.Qmh: {self.Qmh}")
+        #print()
         if (self.E1.P - self.E2.P) >= 0:
             self.Qm = (self.E1.P / self.E1.T / self.E1.R) * self.K_PressureLosses * (self.E1.P - self.E2.P) ** 0.5
             self.Qmh = self.Qm * self.E1.h
@@ -93,21 +105,47 @@ class Volume_C:
     def Param(self, Volume):
         self.Volume = Volume
         self.m = self.P / self.Fluid.R / self.T * self.Volume
+        #print(f"self.P: {self.P}")
+        #print(f"self.Fluid.R: {self.Fluid.R}")
+        #print(f"self.T: {self.T}")
+        #print(f"self.Volume: {self.Volume}")
 
     def Solve(self, dt, method='Euler'):
         self.Fluid = FluidBGM(self.nC, self.nH, self.FAR, self.T)
 
         "mass balance"
         self.delta_Qm_prev = self.delta_Qm
+        #print(f"self.F1.Qm: {self.F1.Qm}")
+        #print(f"self.F2.Qm: {self.F2.Qm}")
         self.delta_Qm = self.F1.Qm + self.F2.Qm
+        #print(f"before integrator self.m: {self.m}")
+        #print(f"self.delta_Qm: {self.delta_Qm}")
+        #print(f"dt: {dt}")
+        #print(f"self.delta_Qm_prev: {self.delta_Qm_prev}")
         self.m = Integrator(self.m, self.delta_Qm, dt, self.delta_Qm_prev, method)
+        #print(f"after integrator self.m: {self.m}")
 
         "energy balance"
+        #print(f"self.F1.Qmh: {self.F1.Qmh}")
+        #print(f"self.F2.Qmh: {self.F2.Qmh}")
         delta_Qh = self.F1.Qmh + self.F2.Qmh
         self.deltaT_prev = self.deltaT
+        #print(f"delta_Qh: {delta_Qh}")
+        #print(f"self.Fluid.u: {self.Fluid.u}")
+        #print(f"self.delta_Qm: {self.delta_Qm}")
+        #print(f"self.m: {self.m}")
+        #print(f"self.Fluid.cp: {self.Fluid.cp}")
+        #print(f"self.Fluid.R: {self.Fluid.R}")
         self.deltaT = (delta_Qh - self.Fluid.u * self.delta_Qm) / self.m / (self.Fluid.cp - self.Fluid.R)
+
+        #print(f"before integrator self.T: {self.T}")
+        #print(f"self.deltaT: {self.deltaT}")
+        #print(f"dt: {dt}")
         self.T = Integrator(self.T, self.deltaT, dt, self.deltaT_prev, method)
+        #print(f"after integrator self.T: {self.T}")
         self.P = self.m * self.Fluid.R * self.T / self.Volume
+        #print(f"self.P: {self.P}")
+        #print()
 
         "effort port creation"
         self.E1 = EffortTF(self.P, self.T, self.Fluid.h, self.Fluid.u, self.Fluid.cp, self.Fluid.gamma, self.Fluid.R,

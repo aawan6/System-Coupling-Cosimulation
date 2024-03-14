@@ -1,10 +1,11 @@
 #
 # Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 #
+import time
 import sys
 sys.path.append('C:/Users/aawan/Documents/SystemCouplingCosimulation/automatedSimpleEngineModel')
 import cosim
-
+time1 = time.time()
 cosimSetup = cosim.cosimulation()
 
 cosimSetup.setHiddenFeatures()
@@ -35,6 +36,8 @@ cosimSetup.analysisType("Transient")
 cosimSetup.minIterations(1)
 cosimSetup.maxIterations(1)
 cosimSetup.timeStepSize("0.001 [s]")
-cosimSetup.endTime("0.005 [s]")
+cosimSetup.endTime("0.02 [s]")
 
 cosimSetup.solve()
+time2 = time.time()
+print("Time for Simulation", repr(round((time2 - time1), 5)))

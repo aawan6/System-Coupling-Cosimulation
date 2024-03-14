@@ -80,7 +80,8 @@ if args.scsetup:
     sc.addOutputParameter(sysc.Parameter("F2Qmh"))
     sc.addOutputParameter(sysc.Parameter("FAR"))
 
-    sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
+    sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    #sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
 else:
     # solve mode
 
@@ -104,7 +105,7 @@ else:
     sc.setParameterValue("F2Qm", engine.F2.Qm)
     sc.setParameterValue("F2Qmh", engine.F2.Qmh)
     sc.setParameterValue("FAR", engine.FAR)
-
+    i = 1
     sc.initializeAnalysis()
     while sc.doTimeStep():
         multiIteration = False
@@ -119,8 +120,39 @@ else:
         while sc.doIteration():
             if multiIteration:
                 raise RuntimeError("participant does not support multiple iterations")
-        
+
+            print(i)
+            i +=1
+            print(f"engine.E1.h: {engine.E1.h}")
+            print(f"engine.E1.P: {engine.E1.P}")
+            print(f"engine.E1.T: {engine.E1.T}")
+            print(f"engine.E1.R: {engine.E1.R}")
+            print(f"engine.E2.h: {engine.E2.h}")
+            print(f"engine.E2.P: {engine.E2.P}")
+            print(f"engine.E2.T: {engine.E2.T}")
+            print()
+
+            engine.Fm = FlowM(n / 30 * math.pi)
+
             sc.updateInputs()
+            engine.E1.h = sc.getParameterValue("E1h")
+            engine.E1.P = sc.getParameterValue("E1P")
+            engine.E1.T = 273+40
+            engine.E1.R = sc.getParameterValue("E1R")
+            engine.E2.h = sc.getParameterValue("E2h")
+            engine.E2.P = sc.getParameterValue("E2P")
+            engine.E2.T = sc.getParameterValue("E2T")  
+
+            injector.Solve(pps, engine.Fm)
+            engine.Solve()
+
+            sc.setParameterValue("F1Qm", engine.F1.Qm)
+            sc.setParameterValue("F1Qmh",engine.F1.Qmh)
+            sc.setParameterValue("F2Qm", engine.F2.Qm)
+            sc.setParameterValue("F2Qmh",engine.F2.Qmh)
+            sc.setParameterValue("FAR",engine.FAR)
+
+            """sc.updateInputs()
             engine.E1.h = sc.getParameterValue("E1h")
             engine.E1.P = sc.getParameterValue("E1P")
             engine.E1.T = 273+40
@@ -137,10 +169,11 @@ else:
             sc.setParameterValue("F1Qmh",engine.F1.Qmh)
             sc.setParameterValue("F2Qm", engine.F2.Qm)
             sc.setParameterValue("F2Qmh",engine.F2.Qmh)
-            sc.setParameterValue("FAR",engine.FAR)
+            sc.setParameterValue("FAR",engine.FAR)"""
             sc.updateOutputs(sysc.Converged)
             multiIteration = True
 
+            '''
             result_simu[incr_save, 0] = startTime + tsSize
             result_simu[incr_save, 1] = engine.Em.Tq
             result_simu[incr_save, 2] = engine.F1.Qm * -1
@@ -151,10 +184,8 @@ else:
             result_simu[incr_save, 7] = engine.E1.T
             result_simu[incr_save, 10] = engine.Fm.N
             incr_save = incr_save +1
-
-            print(f"engine.E2.P: {engine.E2.P}")
-            print()
-
+            '''
+    '''
     plt.figure(1)
     plt.subplot(331)
     plt.plot(result_simu[0:incr_save, 0],result_simu[0:incr_save, 1],'r')
@@ -181,5 +212,5 @@ else:
     plt.ylabel('Engine.Fm.N')
 
     plt.show()
-
+    '''
 sc.disconnect()  

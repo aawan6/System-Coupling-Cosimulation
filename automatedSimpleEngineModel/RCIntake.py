@@ -42,7 +42,7 @@ import ModelSimple_init as config
 pAir = 1e5
 tAir = 298
 t0 = 298
-k_pl_intake = 16e-4 #0.0016352643389866259
+k_pl_intake = 0.001177355219365358 #0.0016352643389866259
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--schost", type=str, default="")
@@ -77,7 +77,9 @@ if args.scsetup:
     sc.addOutputParameter(sysc.Parameter("E2T"))
     sc.addOutputParameter(sysc.Parameter("E2R"))
 
-    sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
+    sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    #sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
+
 else:
     # solve mode
 
@@ -99,15 +101,59 @@ else:
     sc.setParameterValue("E2P", volumeIntake.E2.P)
     sc.setParameterValue("E2T", volumeIntake.E2.T)
     sc.setParameterValue("E2R", volumeIntake.E2.R)
-
+    i = 1
     sc.initializeAnalysis()
     while sc.doTimeStep():
         multiIteration = False
         while sc.doIteration():
             if multiIteration:
                 raise RuntimeError("participant does not support multiple iterations")
-            
+            print(i)
+            i +=1
+            print(f"intake.E1.h: {intake.E1.h}")
+            print(f"intake.E1.P: {intake.E1.P}")
+            print(f"intake.E1.T: {intake.E1.T}")
+            print(f"intake.E1.R: {intake.E1.R}")
+            print(f"intake.E2.h: {intake.E2.h}")
+            print(f"intake.E2.P: {intake.E2.P}")
+            print(f"intake.E2.T: {intake.E2.T}")
+            print(f"intake.E2.R: {intake.E2.R}")
+            print(f"volumeIntake.F1.Qm: {volumeIntake.F1.Qm}")
+            print(f"volumeIntake.F1.Qmh: {volumeIntake.F1.Qmh}")
+            print(f"volumeIntake.F2.Qm: {volumeIntake.F2.Qm}")
+            print(f"volumeIntake.F2.Qmh: {volumeIntake.F2.Qmh}")
+            print()
+
+            sc.updateInputs()
+            intake.E1.h = sc.getParameterValue("E1h")
+            intake.E1.P = sc.getParameterValue("E1P")
+            intake.E1.T = sc.getParameterValue("E1T")
+            intake.E1.R = sc.getParameterValue("E1R")
+
             intake.E2.h = volumeIntake.E1.h
+            intake.E2.P = volumeIntake.E1.P
+            intake.E2.T = volumeIntake.E1.T
+            intake.E2.R = volumeIntake.E1.R
+
+            intake.Solve()
+
+            volumeIntake.F1.Qm = intake.F2.Qm
+            volumeIntake.F1.Qmh = intake.F2.Qmh
+
+            volumeIntake.F2.Qm = sc.getParameterValue("F2Qm")
+            volumeIntake.F2.Qmh = sc.getParameterValue("F2Qmh")
+
+            volumeIntake.Solve(sc.getCurrentTimeStep().timeStepSize, 'Trapezoidal')
+
+            sc.setParameterValue("F1Qm", intake.F1.Qm)
+            sc.setParameterValue("F1Qmh", intake.F1.Qmh)
+
+            sc.setParameterValue("E2h", volumeIntake.E2.h)
+            sc.setParameterValue("E2P", volumeIntake.E2.P)
+            sc.setParameterValue("E2T", volumeIntake.E2.T)
+            sc.setParameterValue("E2R", volumeIntake.E2.R)
+
+            """ intake.E2.h = volumeIntake.E1.h
             intake.E2.P = volumeIntake.E1.P
             intake.E2.T = volumeIntake.E1.T
             intake.E2.R = volumeIntake.E1.R
@@ -133,7 +179,7 @@ else:
             sc.setParameterValue("E2h", volumeIntake.E2.h)
             sc.setParameterValue("E2P", volumeIntake.E2.P)
             sc.setParameterValue("E2T", volumeIntake.E2.T)
-            sc.setParameterValue("E2R", volumeIntake.E2.R)
+            sc.setParameterValue("E2R", volumeIntake.E2.R)"""
 
             sc.updateOutputs(sysc.Converged)
             multiIteration = True

@@ -49,9 +49,9 @@ from Library_ThermoFluid_class import EffortSource, PressureLosses_R, FlowSource
 # initial values
 pAir = 1e5
 tAir = 298
-k_pl_af = 0.002
-t0 = 293
-volAf = 30e-3
+k_pl_af = 0.0016352643389866259 #simple engine model: 0.002 
+t0 = 298 #simple engine model: 293
+volAf = 0.013960000000000002 #simple engine model: 30e-3
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--schost", type=str, default="")
@@ -77,7 +77,8 @@ if args.scsetup:
     sc.addOutputParameter(sysc.Parameter("E2P"))
     sc.addOutputParameter(sysc.Parameter("E2T"))
 
-    sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
+    sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    #sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
 else:
     # solve mode
 
@@ -97,14 +98,50 @@ else:
     sc.setParameterValue("E2h", volAirFilter.E2.h)
     sc.setParameterValue("E2P", volAirFilter.E2.P)
     sc.setParameterValue("E2T", volAirFilter.E2.T)
-
+    i = 1
     sc.initializeAnalysis()
     while sc.doTimeStep():
         multiIteration = False
         while sc.doIteration():
             if multiIteration:
                 raise RuntimeError("participant does not support multiple iterations")
+            print(i)
+            i +=1
+            print(f"airFilter.E2.h: {airFilter.E2.h}")
+            print(f"airFilter.E2.P: {airFilter.E2.P}")
+            print(f"airFilter.E2.R: {airFilter.E2.R}")
+            print(f"airFilter.E2.T: {airFilter.E2.T}")
+            print(f"volAirFilter.F1.Qm: {volAirFilter.F1.Qm}")
+            print(f"volAirFilter.F1.Qmh: {volAirFilter.F1.Qmh}")
+            print(f"volAirFilter.F2.Qm: {volAirFilter.F2.Qm}")
+            print(f"volAirFilter.F2.Qmh: {volAirFilter.F2.Qmh}")
+            print()
 
+            airFilter.E2.h = volAirFilter.E1.h
+            airFilter.E2.P = volAirFilter.E1.P
+            airFilter.E2.R = volAirFilter.E1.R
+            airFilter.E2.T = volAirFilter.E1.T
+
+            airFilter.Solve()
+
+            volAirFilter.F1.Qm = airFilter.F2.Qm
+            volAirFilter.F1.Qmh = airFilter.F2.Qmh
+
+            sc.updateInputs()
+
+            #volume Airfilter
+            volAirFilter.F2.Qm = sc.getParameterValue("F2Qm")
+            volAirFilter.F2.Qmh = sc.getParameterValue("F2Qmh")
+
+            volAirFilter.Solve(sc.getCurrentTimeStep().timeStepSize, 'Trapezoidal')
+            
+            #volume Airfilter
+            sc.setParameterValue("E2gamma", volAirFilter.E2.gamma)
+            sc.setParameterValue("E2h", volAirFilter.E2.h)
+            sc.setParameterValue("E2P", volAirFilter.E2.P)
+            sc.setParameterValue("E2T", volAirFilter.E2.T)
+
+            '''
             airFilter.E2.h = volAirFilter.E1.h
             airFilter.E2.P = volAirFilter.E1.P
             airFilter.E2.R = volAirFilter.E1.R
@@ -127,7 +164,7 @@ else:
             sc.setParameterValue("E2h", volAirFilter.E2.h)
             sc.setParameterValue("E2P", volAirFilter.E2.P)
             sc.setParameterValue("E2T", volAirFilter.E2.T)
-
+            '''
             sc.updateOutputs(sysc.Converged)
             multiIteration = True
 

@@ -146,7 +146,7 @@ class RCCompressor(Participant):
                 2:  [Variable("E2h", QuantityType.enthalpy), 
                     Variable("E2P", QuantityType.pressure),
                     Variable("E2T", QuantityType.temp),
-                    Variable("E2R", QuantityType.temp)],
+                    Variable("E2R", QuantityType.R)],
                     
                 3: [Variable("EmTq", QuantityType.Tq)]},
 
@@ -164,13 +164,13 @@ class RCIntake(Participant):
     def __init__(self, participantName):
         Participant.__init__(self, participantName)
         self.inputs = {1: TransferType.effort, 2: TransferType.flow}
-        self.outputs = {1: TransferType.flow, 2: TransferType.effort, 3: TransferType.effort}
+        self.outputs = {1: TransferType.flow, 2: TransferType.effort}
         self.variables = {
             TransferType.effort : {
                 1 : [Variable("E1h", QuantityType.enthalpy), 
                     Variable("E1P", QuantityType.pressure),
                     Variable("E1T", QuantityType.temp),
-                    Variable("E1R", QuantityType.temp)],
+                    Variable("E1R", QuantityType.R)],
 
                 2:  [Variable("E2h", QuantityType.enthalpy), 
                     Variable("E2P", QuantityType.pressure),
@@ -346,17 +346,13 @@ class cosimulation:
         return engine
     
     def addRCTurbine(self):
-        print("before add turbine")
         RCTurbineName = self.setup.add_participant(executable=self.getScriptName("RCTurbine"))
-        print("after add turbine")
         self.setup.coupling_participant[RCTurbineName].display_name = "RC Turbine"
         rcTurbine = RCTurbine(RCTurbineName)
         return rcTurbine
     
     def addTurboShaft(self):
-        print("before add turboshaft")
         turboShaftName = self.setup.add_participant(executable=self.getScriptName("TurboShaft"))
-        print("after add turboshaft")
         self.setup.coupling_participant[turboShaftName].display_name = "TurboShaft"
         turboShaft = TurboShaft(turboShaftName)
         return turboShaft

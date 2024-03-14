@@ -216,6 +216,7 @@ class FluidBGM:
                 1,
                 0,
             ]
+            #print(f"T: {T}")
             s_T = [math.log(T), T, T**2 / 2, T**3 / 3, T**4 / 4, 0, 1]
             cp_T = [1, T, T**2, T**3, T**4, 0, 0]
 

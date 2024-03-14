@@ -94,7 +94,8 @@ if args.scsetup:
     sc.addOutputParameter(sysc.Parameter("F2Qmh"))
     sc.addOutputParameter(sysc.Parameter("EmTq"))
     
-    sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
+    sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    #sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
 else:
     # solve mode
 
@@ -102,7 +103,7 @@ else:
     Flow_init1 = FlowSource(0, t0)
     Flow_init2 = FlowSource(0, t0)
     fuel = FluidFuel(config.ks, config.lhv, config.hv, config.nc, config.nh)
-    volumeTurbine = Volume_C(Flow_init1.F, Flow_init1.F, P0, T0, fuel.nC, fuel.nH, far)
+    volumeTurbine = Volume_C(Flow_init1.F, Flow_init2.F, P0, T0, fuel.nC, fuel.nH, far)
     volumeTurbine.Param(config.vol_om + config.vol_turbine)
 
     ambientAir1 = EffortSource(pAir, tAir)
@@ -118,7 +119,7 @@ else:
     sc.setParameterValue("F2Qm", turbine.F2.Qm)
     sc.setParameterValue("F2Qmh", turbine.F2.Qmh)
     sc.setParameterValue("EmTq", turbine.Em.Tq)
-
+    i = 1
     sc.initializeAnalysis()
     while sc.doTimeStep():
         multiIteration = False
@@ -128,12 +129,64 @@ else:
             if multiIteration:
                 raise RuntimeError("participant does not support multiple iterations")
             
-            result_simu[incr_save, 0] = startTime + tsSize
+            '''result_simu[incr_save, 0] = startTime + tsSize
             result_simu[incr_save, 8] = turbine.E1.T
             result_simu[incr_save, 9] = turbine.E2.T
-            incr_save = incr_save +1
+            incr_save = incr_save +1'''
+            print(i)
+            i +=1
+          
+            print(f"turbine.E1.gamma: {turbine.E1.gamma}")
+            print(f"turbine.E1.h: {turbine.E1.h}")
+            print(f"turbine.E1.P: {turbine.E1.P}")
+            print(f"turbine.E1.T: {turbine.E1.T}")
+            print(f"turbine.E2.h: {turbine.E2.h}")
+            print(f"turbine.E2.P: {turbine.E2.P}")
+            print(f"turbine.E2.T: {turbine.E2.T}")
+            print(f"turbine.FAR: {turbine.FAR}")
+            print(f"volumeTurbine.FAR: {volumeTurbine.FAR}")
+            print(f"volumeTurbine.F1.Qm: {volumeTurbine.F1.Qm}")
+            print(f"volumeTurbine.F1.Qmh: {volumeTurbine.F1.Qmh}")
+            print(f"volumeTurbine.F2.Qm: {volumeTurbine.F2.Qm}")
+            print(f"volumeTurbine.F2.Qmh: {volumeTurbine.F2.Qmh}")
+            print()
 
+            sc.updateInputs()
+            volumeTurbine.F1.Qm = sc.getParameterValue("F1Qm")
+            volumeTurbine.F1.Qmh = sc.getParameterValue("F1Qmh")
+
+            
             volumeTurbine.F2.Qm = turbine.F1.Qm
+            volumeTurbine.F2.Qmh = turbine.F1.Qmh
+
+            volumeTurbine.FAR = sc.getParameterValue("F1FAR")
+            volumeTurbine.Solve(sc.getCurrentTimeStep().timeStepSize, 'Trapezoidal')
+
+            turbine.E1.gamma = volumeTurbine.E2.gamma
+            turbine.E1.h = volumeTurbine.E2.h
+            turbine.E1.P = volumeTurbine.E2.P
+            turbine.E1.T = volumeTurbine.E2.T
+            
+            turbine.E2.h = sc.getParameterValue("E2h")
+            turbine.E2.P = sc.getParameterValue("E2P")
+            turbine.E2.T = sc.getParameterValue("E2T")
+            turbine.FAR = sc.getParameterValue("F1FAR")
+            turbine.Fm.omega = sc.getParameterValue("Fmomega")
+            turbine.Fm.N = sc.getParameterValue("FmN")
+            turbine.VNT = sc.getParameterValue("PI_VNTy")
+            
+            turbine.Solve()
+
+            sc.setParameterValue("E1h", volumeTurbine.E1.h)
+            sc.setParameterValue("E1P", volumeTurbine.E1.P)
+            sc.setParameterValue("E1T", volumeTurbine.E1.T)
+
+            sc.setParameterValue("F2FAR", turbine.FAR)
+            sc.setParameterValue("F2Qm", turbine.F2.Qm)
+            sc.setParameterValue("F2Qmh", turbine.F2.Qmh)
+            sc.setParameterValue("EmTq", turbine.Em.Tq)
+
+            """volumeTurbine.F2.Qm = turbine.F1.Qm
             volumeTurbine.F2.Qmh = turbine.F1.Qmh
 
             turbine.E1.gamma = volumeTurbine.E2.gamma
@@ -164,21 +217,19 @@ else:
             sc.setParameterValue("F2FAR", turbine.FAR)
             sc.setParameterValue("F2Qm", turbine.F2.Qm)
             sc.setParameterValue("F2Qmh", turbine.F2.Qmh)
-            sc.setParameterValue("EmTq", turbine.Em.Tq)
+            sc.setParameterValue("EmTq", turbine.Em.Tq)"""
+            
 
             sc.updateOutputs(sysc.Converged)
             multiIteration = True
 
-            print(f"volumeTurbine.E1.P: {volumeTurbine.E1.P}")
-            print()
 
-
-    plt.figure(1)
+    '''plt.figure(1)
 
     plt.subplot(336)
     plt.plot(result_simu[0:incr_save, 0],result_simu[0:incr_save, 8],'r', result_simu[0:incr_save, 0],result_simu[0:incr_save, 9],'g')
     plt.ylabel('Turbine Temperature [k]')
 
-    plt.show()
+    plt.show()'''
 
 sc.disconnect()

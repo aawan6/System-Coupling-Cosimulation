@@ -73,6 +73,7 @@ if args.scsetup:
     sc.addOutputParameter(sysc.Parameter("E2T"))
 
     sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    #sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
 else:
     # solve mode
 

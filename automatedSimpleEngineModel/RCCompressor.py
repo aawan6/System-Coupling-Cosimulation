@@ -28,7 +28,7 @@ Inputs:
 Outputs:
   - E1
 """
-print("RCCompressor.py")
+
 import argparse
 import math
 import os
@@ -51,11 +51,11 @@ from EffortFlowPort_class import FlowM
 import ModelSimple_init as config
 
 # initial values
-pAir = 1e5
+pAir = 100000
 tAir = 298
 nTurbo = 120000
-t0 = 293
-volCompressor = 20e-3
+t0 = 298 #simple engine model: 293
+volCompressor = 0.004 #simple engine model: 20e-3
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--schost", type=str, default="")
@@ -93,17 +93,11 @@ if args.scsetup:
     sc.addOutputParameter(sysc.Parameter("E2T"))
     sc.addOutputParameter(sysc.Parameter("E2R"))
 
-    sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
+    sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    #sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
     
 else:
     # solve mode
-    '''
-    num = sc.getNumInputParameters()
-    for i in range(num):
-        parameter = sc.getInputParameter(i)
-        print(parameter.getName())
-    '''  
-    
     # initialize system
     ambientAir1 = EffortSource(pAir, tAir)
     ambientAir2 = EffortSource(pAir, tAir)
@@ -135,11 +129,9 @@ else:
     sc.setParameterValue("E2R", volC.E2.R)
     
 
-    sc.initializeAnalysis()
-    #print(f"compr.E1.h: {compressor.E1.h}")   
-    #print(f"volC.F2.Qm: {volC.F2.Qm}") 
-    #print(f"volC.Em.Tq: {volC.Em.Tq}") 
-
+    sc.initializeAnalysis() 
+    i = 1
+    simpleModel = False
     while sc.doTimeStep():
         multiIteration = False
         startTime = sc.getCurrentTimeStep().startTime
@@ -152,14 +144,71 @@ else:
         while sc.doIteration():
             if multiIteration:
                 raise RuntimeError("participant does not support multiple iterations")  
+            print(i)
+            i +=1
+            print(f"compressor.E2.P: {compressor.E2.P}")
+            print(f"compressor.E2.T: {compressor.E2.T}")
+            print(f"compressor.E2.h: {compressor.E2.h}")
+            print(f"volC.F1.Qm: {volC.F1.Qm}")
+            print(f"volC.F1.Qmh: {volC.F1.Qmh}")
+            print(f"compressor.E1.gamma: {compressor.E1.gamma}")
+            print(f"compressor.E1.h: {compressor.E1.h}")
+            print(f"compressor.E1.P: {compressor.E1.P}")
+            print(f"compressor.E1.T: {compressor.E1.T}")
+            print(f"compressor.Fm.omega: {compressor.Fm.omega}")
+            print(f"compressor.Fm.N: {compressor.Fm.N}")
+            print(f"volC.F2.Qm: {volC.F2.Qm}")
+            print(f"volC.F2.Qmh: {volC.F2.Qmh}")
+            print() 
 
+            sc.updateInputs()
+            compressor.E1.gamma = sc.getParameterValue("E1gamma")
+            compressor.E1.h = sc.getParameterValue("E1h")
+            compressor.E1.P = sc.getParameterValue("E1P")
+            compressor.E1.T = sc.getParameterValue("E1T") 
+            
             compressor.E2.P = volC.E1.P
+            compressor.E2.T = volC.E1.T
+            compressor.E2.h = volC.E1.h
+
+            compressor.Fm.omega = sc.getParameterValue("Fmomega")
+            compressor.Fm.N = sc.getParameterValue("FmN")
+
+            if compressor.Fm.omega == 0 and compressor.Fm.N == 0:
+                print("simple model")
+                simpleModel = True
+                compressor.Fm = FlowM(n / 30 * math.pi)
+
+            compressor.Solve()
+
+            volC.F1.Qm = compressor.F2.Qm
+            volC.F1.Qmh = compressor.F2.Qmh
+
+            #volume compressor (added for intake connection)
+            volC.F2.Qm = sc.getParameterValue("F2Qm") 
+            volC.F2.Qmh = sc.getParameterValue("F2Qmh")
+            
+            if simpleModel:
+                volC.F2 = FlowSource(-0.1, volC.E1.T)
+            
+            volC.Solve(sc.getCurrentTimeStep().timeStepSize, 'Trapezoidal')
+            
+            sc.setParameterValue("F1Qm", compressor.F1.Qm)
+            sc.setParameterValue("F1Qmh", compressor.F1.Qmh)
+            sc.setParameterValue("EmTq", compressor.Em.Tq)
+
+            #volume compressor (added for intake connection)
+            sc.setParameterValue("E2P", volC.E2.P)
+            sc.setParameterValue("E2T", volC.E2.T)
+            sc.setParameterValue("E2h", volC.E2.h)
+            sc.setParameterValue("E2R", volC.E2.R)
+
+            """compressor.E2.P = volC.E1.P
             compressor.E2.T = volC.E1.T
             compressor.E2.h = volC.E1.h 
 
             volC.F1.Qm = compressor.F2.Qm
             volC.F1.Qmh = compressor.F2.Qmh
-            #volC.F2 = FlowSource(-0.1, volC.E1.T) # only for simple engine model
             
             sc.updateInputs()
             compressor.E1.gamma = sc.getParameterValue("E1gamma")
@@ -173,7 +222,11 @@ else:
             volC.F2.Qm = sc.getParameterValue("F2Qm") 
             volC.F2.Qmh = sc.getParameterValue("F2Qmh")
 
-            #compressor.Fm = FlowM(n / 30 * math.pi) #only for simple engine model
+            #check if Simple Engine Model
+            if volC.F2.Qm == 0 and volC.F2.Qmh == 0 and compressor.Fm.omega == 0 and compressor.Fm.N == 0: 
+                volC.F2 = FlowSource(-0.1, volC.E1.T)
+                compressor.Fm = FlowM(n / 30 * math.pi)
+
             compressor.Solve()
             volC.Solve(sc.getCurrentTimeStep().timeStepSize)
             
@@ -185,7 +238,7 @@ else:
             sc.setParameterValue("E2P", volC.E2.P)
             sc.setParameterValue("E2T", volC.E2.T)
             sc.setParameterValue("E2h", volC.E2.h)
-            sc.setParameterValue("E2R", volC.E2.R)
+            sc.setParameterValue("E2R", volC.E2.R)"""
 
             sc.updateOutputs(sysc.Converged)
             multiIteration = True

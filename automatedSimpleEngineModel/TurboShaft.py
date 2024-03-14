@@ -62,7 +62,8 @@ if args.scsetup:
     sc.addOutputParameter(sysc.Parameter("Fm2omega"))
     sc.addOutputParameter(sysc.Parameter("Fm2N"))
     
-    sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
+    sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    #sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
     
 
 else:
@@ -76,7 +77,7 @@ else:
     sc.setParameterValue("Fm1N", turboShaft.Fm1.N)
     sc.setParameterValue("Fm2omega", turboShaft.Fm2.omega)
     sc.setParameterValue("Fm2N", turboShaft.Fm2.N)
-
+    i = 1
     sc.initializeAnalysis()
     while sc.doTimeStep():
         multiIteration = False
@@ -88,12 +89,17 @@ else:
             
             result_simu[incr_save, 0] = startTime + tsSize
             result_simu[incr_save, 11] = turboShaft.Fm1.N
+            print(i)
+            i +=1
+            print(f"turboShaft.Em1.Tq: {turboShaft.Em1.Tq}")
+            print(f"turboShaft.Em2.Tq: {turboShaft.Em2.Tq}")
+            print()
 
             sc.updateInputs()
             turboShaft.Em1.Tq = sc.getParameterValue("Em1Tq")
             turboShaft.Em2.Tq = sc.getParameterValue("Em2Tq")
 
-            turboShaft.Solve(sc.getCurrentTimeStep().timeStepSize)
+            turboShaft.Solve(sc.getCurrentTimeStep().timeStepSize, 'Trapezoidal')
 
             sc.setParameterValue("Fm1omega", turboShaft.Fm1.omega)
             sc.setParameterValue("Fm1N", turboShaft.Fm1.N)

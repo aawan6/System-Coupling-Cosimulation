@@ -53,7 +53,8 @@ if args.scsetup:
 
     sc.addOutputParameter(sysc.Parameter("PI_VNTy"))
 
-    sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
+    sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    #sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
 else:
     # solve mode
     # initialize system
@@ -61,7 +62,7 @@ else:
     PI_VNT.Param(config.kp, config.ki, config.vnt_min, config.vnt_max)
 
     sc.setParameterValue("PI_VNTy", PI_VNT.y)
-
+    i = 1
     sc.initializeAnalysis()
     while sc.doTimeStep():
         multiIteration = False
@@ -76,20 +77,23 @@ else:
                         startTime + tsSize)
         P1E_Ord = interpolm(config.y_pps_qinj, config.engine_x_ne, config.z_p1e_ord, pps, n)
         Kp_VNT = interpolv(config.x_epsilon_kp, config.y_kp, P1E_Ord - Eninge_E1P)
-        print(f"Kp_VNT: {Kp_VNT}")
         while sc.doIteration():
             if multiIteration:
                 raise RuntimeError("participant does not support multiple iterations")
-            
+            print(i)
+            i +=1
+            print(f"engine.E1.P / x_act: {Eninge_E1P}")
+            print()
+
+            PI_VNT.x_Ord = P1E_Ord
+
             sc.updateInputs()
             Eninge_E1P = sc.getParameterValue("x_Act")
-            print(f"engine.E1.P: {Eninge_E1P}")
             
-            PI_VNT.x_Ord = P1E_Ord
             PI_VNT.x_Act = Eninge_E1P
             PI_VNT.Kp = Kp_VNT * 0.25
 
-            PI_VNT.Solve(sc.getCurrentTimeStep().timeStepSize)
+            PI_VNT.Solve(sc.getCurrentTimeStep().timeStepSize, 'Trapezoidal')
 
             sc.setParameterValue("PI_VNTy", PI_VNT.y)
 

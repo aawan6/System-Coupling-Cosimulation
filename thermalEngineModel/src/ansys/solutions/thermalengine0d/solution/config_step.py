@@ -11,9 +11,9 @@ from ansys.solutions.thermalengine0d.model.scripts.dataprocess import PreProcess
 
 class ConfigStep:
     """Step definition of the config step."""
-    first_arg: float = 5
+    first_arg: float = 0.02 
     second_arg: float = 0.001
-    third_arg: float = 0.01
+    third_arg: float = 0.001 
     control: dict = {}
     config: dict = {}
     x_N: str = '[]'
