@@ -44,7 +44,7 @@ from Fluid_properties_class import FluidFuel
 import ModelSimple_init as config
 from Data_treatment import interpolv
 
-result_simu = np.zeros((16, 11))
+result_simu = np.zeros((16, 16))
 incr_save = 1
 
 #initial values
@@ -80,7 +80,8 @@ if args.scsetup:
     sc.addOutputParameter(sysc.Parameter("F2Qmh"))
     sc.addOutputParameter(sysc.Parameter("FAR"))
 
-    sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
+    sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    #sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
 else:
     # solve mode
 
@@ -131,6 +132,8 @@ else:
             print(f"engine.E2.T: {engine.E2.T}")
             print()
 
+            engine.Fm = FlowM(n / 30 * math.pi)
+
             sc.updateInputs()
             engine.E1.h = sc.getParameterValue("E1h")
             engine.E1.P = sc.getParameterValue("E1P")
@@ -140,7 +143,6 @@ else:
             engine.E2.P = sc.getParameterValue("E2P")
             engine.E2.T = sc.getParameterValue("E2T")  
 
-            engine.Fm = FlowM(n / 30 * math.pi)
             injector.Solve(pps, engine.Fm)
             engine.Solve()
 
@@ -153,7 +155,6 @@ else:
             sc.updateOutputs(sysc.Converged)
             multiIteration = True
 
-            
             result_simu[incr_save, 0] = startTime + tsSize
             result_simu[incr_save, 1] = engine.Em.Tq
             result_simu[incr_save, 2] = engine.F1.Qm * -1
@@ -164,7 +165,7 @@ else:
             result_simu[incr_save, 7] = engine.E1.T
             result_simu[incr_save, 10] = engine.Fm.N
             incr_save = incr_save +1
-            
+
     print()   
     print("[" + ", ".join(map(str, [row[0] for row in result_simu])) + "]")
     print("[" + ", ".join(map(str, [row[1] for row in result_simu])) + "]")
@@ -175,7 +176,7 @@ else:
     print("[" + ", ".join(map(str, [row[6] for row in result_simu])) + "]")
     print("[" + ", ".join(map(str, [row[7] for row in result_simu])) + "]")
     print("[" + ", ".join(map(str, [row[10] for row in result_simu])) + "]")
-    print()
+    print() 
     '''
     plt.figure(1)
     plt.subplot(331)

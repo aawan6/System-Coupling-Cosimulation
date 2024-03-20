@@ -1,0 +1,116 @@
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+1
+exhaust.E1.h: -151.06655748740656
+exhaust.E1.P: 100000.0
+exhaust.E1.T: 298
+exhaust.E1.R: 287.0511382180156
+volumeExhaust.F2.Qm: 0
+volumeExhaust.F2.Qmh: -0.0
+volumeExhaust.FAR: 0.0
+volumeExhaust.F1.Qm: 0
+volumeExhaust.F1.Qmh: -0.0
+
+2
+exhaust.E1.h: -157.5260580373145
+exhaust.E1.P: 100506.60221157152
+exhaust.E1.T: 298.0624876966226
+exhaust.E1.R: 288.2877262682366
+volumeExhaust.F2.Qm: 0
+volumeExhaust.F2.Qmh: 0.0
+volumeExhaust.FAR: 1.9081778991840945
+volumeExhaust.F1.Qm: 0.009940234538377139
+volumeExhaust.F1.Qmh: 13.142431617725364
+
+3
+exhaust.E1.h: -92.18153655409762
+exhaust.E1.P: 100784.65211473791
+exhaust.E1.T: 298.0744192316212
+exhaust.E1.R: 289.0705590439239
+volumeExhaust.F2.Qm: -0.027657088338227623
+volumeExhaust.F2.Qmh: 4.3567121027107785
+volumeExhaust.FAR: 1.8864008518970798
+volumeExhaust.F1.Qm: 0.017914986986459512
+volumeExhaust.F1.Qmh: 130.89574481024334
+
+4
+exhaust.E1.h: -79.86846139220316
+exhaust.E1.P: 100898.09989555832
+exhaust.E1.T: 297.95550386322543
+exhaust.E1.R: 289.90328729490886
+volumeExhaust.F2.Qm: -0.034420423283001246
+volumeExhaust.F2.Qmh: 3.1729275070694922
+volumeExhaust.FAR: 1.8635786726778576
+volumeExhaust.F1.Qm: 0.01949963593638052
+volumeExhaust.F1.Qmh: 332.17476588503325
+
+5
+exhaust.E1.h: -206.22542911770495
+exhaust.E1.P: 100995.05313024492
+exhaust.E1.T: 297.8303623686585
+exhaust.E1.R: 290.7912342937089
+volumeExhaust.F2.Qm: -0.03677498956877037
+volumeExhaust.F2.Qmh: 2.9371618345720103
+volumeExhaust.FAR: 1.8396236782147595
+volumeExhaust.F1.Qm: 0.021149928491963028
+volumeExhaust.F1.Qmh: 559.2342249395753
+
+6
+exhaust.E1.h: -340.0405889250296
+exhaust.E1.P: 101091.46152842786
+exhaust.E1.T: 297.7339269307473
+exhaust.E1.R: 291.6669036614472
+volumeExhaust.F2.Qm: -0.03864423870122078
+volumeExhaust.F2.Qmh: 7.969424709086276
+volumeExhaust.FAR: 1.8163755470269212
+volumeExhaust.F1.Qm: 0.022845980142376442
+volumeExhaust.F1.Qmh: 813.7465518354326
+
+7
+exhaust.E1.h: -444.05153936670143
+exhaust.E1.P: 101188.17483419231
+exhaust.E1.T: 297.67466634443434
+exhaust.E1.R: 292.51346095953386
+volumeExhaust.F2.Qm: -0.04040313034209388
+volumeExhaust.F2.Qmh: 13.738704235940338
+volumeExhaust.FAR: 1.794246656293349
+volumeExhaust.F1.Qm: 0.024575814967891442
+volumeExhaust.F1.Qmh: 1096.3503835169165
+
+8
+exhaust.E1.h: -508.87428080138415
+exhaust.E1.P: 101290.03606617544
+exhaust.E1.T: 297.65807751555576
+exhaust.E1.R: 293.33512066364534
+volumeExhaust.F2.Qm: -0.04208177065420486
+volumeExhaust.F2.Qmh: 18.68647503827615
+volumeExhaust.FAR: 1.7730868440379264
+volumeExhaust.F1.Qm: 0.02633555072068183
+volumeExhaust.F1.Qmh: 1406.7157185125152
+
+9
+exhaust.E1.h: -528.2358940451716
+exhaust.E1.P: 101402.1348131952
+exhaust.E1.T: 297.6886484592887
+exhaust.E1.R: 294.1399193207797
+volumeExhaust.F2.Qm: -0.043772133538531224
+volumeExhaust.F2.Qmh: 22.274512973562224
+volumeExhaust.FAR: 1.7526585423364531
+volumeExhaust.F1.Qm: 0.028120700553563645
+volumeExhaust.F1.Qmh: 1744.3716647481297
+
+10
+exhaust.E1.h: -496.89287323225057
+exhaust.E1.P: 101527.12929811241
+exhaust.E1.T: 297.7695775037373
+exhaust.E1.R: 294.93312579218247
+volumeExhaust.F2.Qm: -0.04555515628171193
+volumeExhaust.F2.Qmh: 24.063868706837614
+volumeExhaust.FAR: 1.732806273478451
+volumeExhaust.F1.Qm: 0.02992602854290464
+volumeExhaust.F1.Qmh: 2108.7066310658884
+

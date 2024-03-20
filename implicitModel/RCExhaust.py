@@ -71,7 +71,8 @@ if args.scsetup:
     sc.addOutputParameter(sysc.Parameter("E1P"))
     sc.addOutputParameter(sysc.Parameter("E1T"))
     
-    sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
+    sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    #sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
 else:
     # solve mode
 
@@ -110,20 +111,21 @@ else:
             print(f"volumeExhaust.F1.Qmh: {volumeExhaust.F1.Qmh}")
             print()
 
+            sc.updateInputs()
+            volumeExhaust.F1.Qm = sc.getParameterValue("F1Qm")
+            volumeExhaust.F1.Qmh = sc.getParameterValue("F1Qmh")
+
+            volumeExhaust.F2.Qm = exhaust.F1.Qm 
+            volumeExhaust.F2.Qmh = exhaust.F1.Qmh
+
+            volumeExhaust.FAR = sc.getParameterValue("FAR")
+            volumeExhaust.Solve(sc.getCurrentTimeStep().timeStepSize, 'Trapezoidal')
+            
             exhaust.E1.h = volumeExhaust.E2.h
             exhaust.E1.P = volumeExhaust.E2.P
             exhaust.E1.T = volumeExhaust.E2.T
             exhaust.E1.R = volumeExhaust.E2.R
 
-            volumeExhaust.F2.Qm = exhaust.F1.Qm 
-            volumeExhaust.F2.Qmh = exhaust.F1.Qmh
-
-            sc.updateInputs()
-            volumeExhaust.F1.Qm = sc.getParameterValue("F1Qm")
-            volumeExhaust.F1.Qmh = sc.getParameterValue("F1Qmh")
-            volumeExhaust.FAR = sc.getParameterValue("FAR")
-
-            volumeExhaust.Solve(sc.getCurrentTimeStep().timeStepSize, 'Trapezoidal')
             exhaust.Solve()
 
             sc.setParameterValue("E1h", volumeExhaust.E1.h)

@@ -77,7 +77,8 @@ if args.scsetup:
     sc.addOutputParameter(sysc.Parameter("E2T"))
     sc.addOutputParameter(sysc.Parameter("E2R"))
 
-    sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
+    sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    #sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
 
 else:
     # solve mode
@@ -123,24 +124,25 @@ else:
             print(f"volumeIntake.F2.Qmh: {volumeIntake.F2.Qmh}")
             print()
 
-            intake.E2.h = volumeIntake.E1.h
-            intake.E2.P = volumeIntake.E1.P
-            intake.E2.T = volumeIntake.E1.T
-            intake.E2.R = volumeIntake.E1.R
-
-            volumeIntake.F1.Qm = intake.F2.Qm
-            volumeIntake.F1.Qmh = intake.F2.Qmh
-
             sc.updateInputs()
             intake.E1.h = sc.getParameterValue("E1h")
             intake.E1.P = sc.getParameterValue("E1P")
             intake.E1.T = sc.getParameterValue("E1T")
             intake.E1.R = sc.getParameterValue("E1R")
 
+            intake.E2.h = volumeIntake.E1.h
+            intake.E2.P = volumeIntake.E1.P
+            intake.E2.T = volumeIntake.E1.T
+            intake.E2.R = volumeIntake.E1.R
+
+            intake.Solve()
+
+            volumeIntake.F1.Qm = intake.F2.Qm
+            volumeIntake.F1.Qmh = intake.F2.Qmh
+
             volumeIntake.F2.Qm = sc.getParameterValue("F2Qm")
             volumeIntake.F2.Qmh = sc.getParameterValue("F2Qmh")
 
-            intake.Solve()
             volumeIntake.Solve(sc.getCurrentTimeStep().timeStepSize, 'Trapezoidal')
 
             sc.setParameterValue("F1Qm", intake.F1.Qm)

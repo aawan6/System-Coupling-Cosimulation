@@ -36,7 +36,6 @@ import argparse
 import os
 import sys
 import numpy as np
-import pandas as pd
 
 if sys.platform.startswith("win"):
     for p in os.environ["PYTHON_DLL_PATH"].split(os.pathsep):
@@ -47,19 +46,17 @@ if sys.platform.startswith("win"):
 
 from pyExt import SystemCouplingParticipant as sysc
 
-result_simu = np.zeros((1001, 11))
+from Library_ThermoFluid_class import EffortSource, PressureLosses_R, FlowSource, Volume_C
+
+result_simu = np.zeros((15, 11))
 incr_save = 1
 
-from Library_ThermoFluid_class import EffortSource, PressureLosses_R, FlowSource, Volume_C
 # initial values
 pAir = 1e5
 tAir = 298
-#k_pl_af = 0.0016352643389866259 #simple engine model: 0.002 
-#t0 = 298 #simple engine model: 293
-#volAf = 0.013960000000000002 #simple engine model: 30e-3
-k_pl_af = 0.002 
-t0 = 293
-volAf = 30e-3
+k_pl_af = 0.0016352643389866259 #simple engine model: 0.002 
+t0 = 298 #simple engine model: 293
+volAf = 0.013960000000000002 #simple engine model: 30e-3
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--schost", type=str, default="")
@@ -85,7 +82,8 @@ if args.scsetup:
     sc.addOutputParameter(sysc.Parameter("E2P"))
     sc.addOutputParameter(sysc.Parameter("E2T"))
 
-    sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
+    sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    #sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
 else:
     # solve mode
 
@@ -131,6 +129,8 @@ else:
             airFilter.E2.R = volAirFilter.E1.R
             airFilter.E2.T = volAirFilter.E1.T
 
+            airFilter.Solve()
+
             volAirFilter.F1.Qm = airFilter.F2.Qm
             volAirFilter.F1.Qmh = airFilter.F2.Qmh
 
@@ -140,9 +140,7 @@ else:
             volAirFilter.F2.Qm = sc.getParameterValue("F2Qm")
             volAirFilter.F2.Qmh = sc.getParameterValue("F2Qmh")
 
-            airFilter.Solve()
-            volAirFilter.Solve(sc.getCurrentTimeStep().timeStepSize)
-            #volAirFilter.Solve(sc.getCurrentTimeStep().timeStepSize, 'Trapezoidal') #thermal model
+            volAirFilter.Solve(sc.getCurrentTimeStep().timeStepSize, 'Trapezoidal')
             
             #volume Airfilter
             sc.setParameterValue("E2gamma", volAirFilter.E2.gamma)
@@ -157,20 +155,7 @@ else:
             result_simu[incr_save, 1] = pAir
             result_simu[incr_save, 6] = airFilter.E2.P
             incr_save += 1
-
     
-    rows_to_write = [0, 1, 6]
-    start_rows = [1, 2, 7] 
-
-    data_transposed = list(map(list, zip(*result_simu)))
-
-    # Open the existing Excel file for writing
-    with pd.ExcelWriter("simpleEngineAirFilterData2.xlsx", mode='w') as writer:
-        # Write the selected rows to the Excel file
-        for i, row_idx in enumerate(rows_to_write):
-            df = pd.DataFrame(data_transposed[row_idx]).T  # Transpose to write as a row
-            df.to_excel(writer, index=False, header=False, startrow=start_rows[i])
-
     print()   
     print("[" + ", ".join(map(str, [row[0] for row in result_simu])) + "]")
     print("[" + ", ".join(map(str, [row[1] for row in result_simu])) + "]")

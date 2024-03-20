@@ -43,7 +43,7 @@ from Fluid_properties_class import FluidFuel
 from EffortFlowPort_class import FlowM
 import ModelSimple_init as config
 
-result_simu = np.zeros((11, 11))
+result_simu = np.zeros((15, 11))
 incr_save = 1
 
 #initial values
@@ -94,7 +94,8 @@ if args.scsetup:
     sc.addOutputParameter(sysc.Parameter("F2Qmh"))
     sc.addOutputParameter(sysc.Parameter("EmTq"))
     
-    sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
+    sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    #sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
 else:
     # solve mode
 
@@ -128,14 +129,12 @@ else:
             if multiIteration:
                 raise RuntimeError("participant does not support multiple iterations")
             
-            '''result_simu[incr_save, 0] = startTime + tsSize
-            result_simu[incr_save, 8] = turbine.E1.T
-            result_simu[incr_save, 9] = turbine.E2.T
-            incr_save = incr_save +1'''
+            
             print(i)
             i +=1
           
-            print(f"turbine.E1.gamma: {turbine.E1.gamma}")
+
+            """print(f"turbine.E1.gamma: {turbine.E1.gamma}")
             print(f"turbine.E1.h: {turbine.E1.h}")
             print(f"turbine.E1.P: {turbine.E1.P}")
             print(f"turbine.E1.T: {turbine.E1.T}")
@@ -148,22 +147,24 @@ else:
             print(f"volumeTurbine.F1.Qmh: {volumeTurbine.F1.Qmh}")
             print(f"volumeTurbine.F2.Qm: {volumeTurbine.F2.Qm}")
             print(f"volumeTurbine.F2.Qmh: {volumeTurbine.F2.Qmh}")
-            print()
+            print()"""
 
+            sc.updateInputs()
+            volumeTurbine.F1.Qm = sc.getParameterValue("F1Qm")
+            volumeTurbine.F1.Qmh = sc.getParameterValue("F1Qmh")
+
+            
             volumeTurbine.F2.Qm = turbine.F1.Qm
             volumeTurbine.F2.Qmh = turbine.F1.Qmh
+
+            volumeTurbine.FAR = sc.getParameterValue("F1FAR")
+            volumeTurbine.Solve(sc.getCurrentTimeStep().timeStepSize, 'Trapezoidal')
 
             turbine.E1.gamma = volumeTurbine.E2.gamma
             turbine.E1.h = volumeTurbine.E2.h
             turbine.E1.P = volumeTurbine.E2.P
             turbine.E1.T = volumeTurbine.E2.T
-
-            sc.updateInputs()
-
-            volumeTurbine.FAR = sc.getParameterValue("F1FAR")
-            volumeTurbine.F1.Qm = sc.getParameterValue("F1Qm")
-            volumeTurbine.F1.Qmh = sc.getParameterValue("F1Qmh")
-
+            
             turbine.E2.h = sc.getParameterValue("E2h")
             turbine.E2.P = sc.getParameterValue("E2P")
             turbine.E2.T = sc.getParameterValue("E2T")
@@ -171,8 +172,7 @@ else:
             turbine.Fm.omega = sc.getParameterValue("Fmomega")
             turbine.Fm.N = sc.getParameterValue("FmN")
             turbine.VNT = sc.getParameterValue("PI_VNTy")
-
-            volumeTurbine.Solve(sc.getCurrentTimeStep().timeStepSize, 'Trapezoidal')
+            
             turbine.Solve()
 
             sc.setParameterValue("E1h", volumeTurbine.E1.h)
@@ -195,6 +195,7 @@ else:
     print("[" + ", ".join(map(str, [row[8] for row in result_simu])) + "]")
     print("[" + ", ".join(map(str, [row[9] for row in result_simu])) + "]")
     print()
+
     '''plt.figure(1)
 
     plt.subplot(336)

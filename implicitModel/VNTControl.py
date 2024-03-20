@@ -16,6 +16,7 @@ Outputs:
 import argparse
 import os
 import sys
+import numpy as np
 
 if sys.platform.startswith("win"):
     for p in os.environ["PYTHON_DLL_PATH"].split(os.pathsep):
@@ -29,7 +30,6 @@ from pyExt import SystemCouplingParticipant as sysc
 from Library_Control_class import PI_control
 from Data_treatment import interpolv, interpolm
 import ModelSimple_init as config
-import numpy as np
 
 result_simu = np.zeros((15, 15))
 incr_save = 1
@@ -57,7 +57,8 @@ if args.scsetup:
 
     sc.addOutputParameter(sysc.Parameter("PI_VNTy"))
 
-    sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
+    sc.completeSetup(sysc.SetupInfo(sysc.Transient))
+    #sc.completeSetup(sysc.SetupInfo(sysc.Transient, False, sysc.Dimension_D3, sysc.TimeIntegration_Explicit))
 else:
     # solve mode
     # initialize system

@@ -1,7 +1,6 @@
 #
 # Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 #
-import time
 import sys
 sys.path.append('C:/Users/aawan/Documents/SystemCouplingCosimulation/automatedSimpleEngineModel')
 import cosim

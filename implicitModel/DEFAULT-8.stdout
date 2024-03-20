@@ -1,0 +1,41 @@
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+engine.E1.P: 100000.0
+1
+engine.E1.P / x_act: 100000.0
+
+2
+engine.E1.P / x_act: 100579.87923051036
+
+3
+engine.E1.P / x_act: 101740.99659531772
+
+4
+engine.E1.P / x_act: 102986.96023092001
+
+5
+engine.E1.P / x_act: 104328.02367303503
+
+6
+engine.E1.P / x_act: 105663.33760901519
+
+7
+engine.E1.P / x_act: 106966.50985921452
+
+8
+engine.E1.P / x_act: 108243.03575181225
+
+9
+engine.E1.P / x_act: 109504.67419307625
+
+10
+engine.E1.P / x_act: 110759.238114365
+
+
+[0.0, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.0, 0.0, 0.0, 0.0]
+[0.0, 248714.21319487, 248714.21319487, 248714.21319487, 248714.21319487, 248714.21319487, 248714.21319487, 248714.21319487, 248714.21319487, 248714.21319487, 248714.21319487, 0.0, 0.0, 0.0, 0.0]
+

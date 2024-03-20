@@ -1,0 +1,49 @@
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+1
+turboShaft.Em1.Tq: 0
+turboShaft.Em2.Tq: 0
+
+2
+turboShaft.Em1.Tq: -0.0
+turboShaft.Em2.Tq: -0.0011704475406539116
+
+3
+turboShaft.Em1.Tq: -0.05395988112417903
+turboShaft.Em2.Tq: -0.0027009486472500096
+
+4
+turboShaft.Em1.Tq: -0.15037214243246222
+turboShaft.Em2.Tq: -0.0008261430242326774
+
+5
+turboShaft.Em1.Tq: -0.21912915383014797
+turboShaft.Em2.Tq: 0.0017026740850130387
+
+6
+turboShaft.Em1.Tq: -0.2633171068203721
+turboShaft.Em2.Tq: 0.004935965079314226
+
+7
+turboShaft.Em1.Tq: -0.2984459445774157
+turboShaft.Em2.Tq: 0.008988262879443765
+
+8
+turboShaft.Em1.Tq: -0.3303577595836359
+turboShaft.Em2.Tq: 0.013945336519862761
+
+9
+turboShaft.Em1.Tq: -0.3609050980834251
+turboShaft.Em2.Tq: 0.01988546469736923
+
+10
+turboShaft.Em1.Tq: -0.3902338579174914
+turboShaft.Em2.Tq: 0.026878678669524952
+
+
+[0.0, 119999.50631843183, 119975.11373808852, 119887.4411082601, 119731.95934095985, 119531.26905406851, 119300.19681881771, 119044.6476437883, 118767.35021923602, 118470.2528697127, 118155.74173109933, 0.0, 0.0, 0.0, 0.0]
+

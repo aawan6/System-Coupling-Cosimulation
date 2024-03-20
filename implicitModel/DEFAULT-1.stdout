@@ -1,0 +1,574 @@
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+1
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 100000.0
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298
+volAirFilter.F1.Qm: 0
+volAirFilter.F1.Qmh: -0.0
+volAirFilter.F2.Qm: 0
+volAirFilter.F2.Qmh: -0.0
+
+Traceback (most recent call last):
+  File "C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel\RCAirFilter.py", line 152, in <module>
+    result_simu[incr_save, 0] = startTime + tsSize
+NameError: name 'startTime' is not defined
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+1
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 100000.0
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298
+volAirFilter.F1.Qm: 0
+volAirFilter.F1.Qmh: -0.0
+volAirFilter.F2.Qm: 0
+volAirFilter.F2.Qmh: -0.0
+
+2
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 100000.0
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298
+volAirFilter.F1.Qm: 0.0
+volAirFilter.F1.Qmh: -0.0
+volAirFilter.F2.Qm: 0.0
+volAirFilter.F2.Qmh: 0.0
+
+3
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 100000.0
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298.0
+volAirFilter.F1.Qm: 0.0
+volAirFilter.F1.Qmh: -0.0
+volAirFilter.F2.Qm: -0.14691333592467207
+volAirFilter.F2.Qmh: 22.193691907131143
+
+4
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 93704.49278494368
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 292.40071851809574
+volAirFilter.F1.Qm: 0.15167981546356132
+volAirFilter.F1.Qmh: -22.913747562405305
+volAirFilter.F2.Qm: -0.13697354362058958
+volAirFilter.F2.Qmh: 20.692121701613587
+
+5
+airFilter.E2.h: -5789.517725527432
+airFilter.E2.P: 88199.91432078648
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 287.41453034599266
+volAirFilter.F1.Qm: 0.20766103247756215
+volAirFilter.F1.Qmh: -31.37063730066584
+volAirFilter.F2.Qm: -0.12028812584440017
+volAirFilter.F2.Qmh: 696.4102367466292
+
+6
+airFilter.E2.h: -10809.627643765827
+airFilter.E2.P: 92670.63561285526
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 291.99694988344305
+volAirFilter.F1.Qm: 0.16366114507560148
+volAirFilter.F1.Qmh: -24.723725781018135
+volAirFilter.F2.Qm: -0.11842770709237564
+volAirFilter.F2.Qmh: 1280.159416373546
+
+7
+airFilter.E2.h: -6196.064989986433
+airFilter.E2.P: 98726.30314972287
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298.2649470284981
+volAirFilter.F1.Qm: 0.0682253018888958
+volAirFilter.F1.Qmh: -10.306561489894545
+volAirFilter.F2.Qm: -0.12250330296745301
+volAirFilter.F2.Qmh: 759.0384266743367
+
+8
+airFilter.E2.h: 115.76498452606782
+airFilter.E2.P: 98651.95554962027
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298.8799820051186
+volAirFilter.F1.Qm: 0.07018826951406813
+volAirFilter.F1.Qmh: -10.60310025148856
+volAirFilter.F2.Qm: -0.11053025319843202
+volAirFilter.F2.Qmh: -12.79553305117884
+
+9
+airFilter.E2.h: 735.1859926778999
+airFilter.E2.P: 94711.81988945426
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 295.65654176756755
+volAirFilter.F1.Qm: 0.13901624318246536
+volAirFilter.F1.Qmh: -21.000705292407194
+volAirFilter.F2.Qm: -0.08640091677726446
+volAirFilter.F2.Qmh: -63.520743769173784
+
+10
+airFilter.E2.h: -2511.067700359792
+airFilter.E2.P: 95234.14737462522
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 296.1206319432401
+volAirFilter.F1.Qm: 0.1319722839794443
+volAirFilter.F1.Qmh: -19.936598624525065
+volAirFilter.F2.Qm: -0.08820447540993721
+volAirFilter.F2.Qmh: 221.48740922907285
+
+
+[0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.060000000000000005, 0.07, 0.08, 0.09, 0.09999999999999999, 0.0, 0.0, 0.0, 0.0]
+[0.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 0.0, 0.0, 0.0, 0.0]
+
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+1
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 100000.0
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298
+volAirFilter.F1.Qm: 0
+volAirFilter.F1.Qmh: -0.0
+volAirFilter.F2.Qm: 0
+volAirFilter.F2.Qmh: -0.0
+
+2
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 100000.0
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298
+volAirFilter.F1.Qm: 0.0
+volAirFilter.F1.Qmh: -0.0
+volAirFilter.F2.Qm: 0.0
+volAirFilter.F2.Qmh: 0.0
+
+3
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 100000.0
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298.0
+volAirFilter.F1.Qm: 0.0
+volAirFilter.F1.Qmh: -0.0
+volAirFilter.F2.Qm: -0.14691333592467207
+volAirFilter.F2.Qmh: 22.193691907131143
+
+4
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 93704.49278494368
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 292.40071851809574
+volAirFilter.F1.Qm: 0.15167981546356132
+volAirFilter.F1.Qmh: -22.913747562405305
+volAirFilter.F2.Qm: -0.13697354362058958
+volAirFilter.F2.Qmh: 20.692121701613587
+
+5
+airFilter.E2.h: -5789.517725527432
+airFilter.E2.P: 88199.91432078648
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 287.41453034599266
+volAirFilter.F1.Qm: 0.20766103247756215
+volAirFilter.F1.Qmh: -31.37063730066584
+volAirFilter.F2.Qm: -0.12028812584440017
+volAirFilter.F2.Qmh: 696.4102367466292
+
+6
+airFilter.E2.h: -10809.627643765827
+airFilter.E2.P: 92670.63561285526
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 291.99694988344305
+volAirFilter.F1.Qm: 0.16366114507560148
+volAirFilter.F1.Qmh: -24.723725781018135
+volAirFilter.F2.Qm: -0.11842770709237564
+volAirFilter.F2.Qmh: 1280.159416373546
+
+7
+airFilter.E2.h: -6196.064989986433
+airFilter.E2.P: 98726.30314972287
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298.2649470284981
+volAirFilter.F1.Qm: 0.0682253018888958
+volAirFilter.F1.Qmh: -10.306561489894545
+volAirFilter.F2.Qm: -0.12250330296745301
+volAirFilter.F2.Qmh: 759.0384266743367
+
+8
+airFilter.E2.h: 115.76498452606782
+airFilter.E2.P: 98651.95554962027
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298.8799820051186
+volAirFilter.F1.Qm: 0.07018826951406813
+volAirFilter.F1.Qmh: -10.60310025148856
+volAirFilter.F2.Qm: -0.11053025319843202
+volAirFilter.F2.Qmh: -12.79553305117884
+
+9
+airFilter.E2.h: 735.1859926778999
+airFilter.E2.P: 94711.81988945426
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 295.65654176756755
+volAirFilter.F1.Qm: 0.13901624318246536
+volAirFilter.F1.Qmh: -21.000705292407194
+volAirFilter.F2.Qm: -0.08640091677726446
+volAirFilter.F2.Qmh: -63.520743769173784
+
+10
+airFilter.E2.h: -2511.067700359792
+airFilter.E2.P: 95234.14737462522
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 296.1206319432401
+volAirFilter.F1.Qm: 0.1319722839794443
+volAirFilter.F1.Qmh: -19.936598624525065
+volAirFilter.F2.Qm: -0.08820447540993721
+volAirFilter.F2.Qmh: 221.48740922907285
+
+
+[0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.060000000000000005, 0.07, 0.08, 0.09, 0.09999999999999999, 0.0, 0.0, 0.0, 0.0]
+[0.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 0.0, 0.0, 0.0, 0.0]
+[0.0, 100000.0, 100000.0, 93704.49278494368, 88199.91432078648, 92670.63561285526, 98726.30314972287, 98651.95554962027, 94711.81988945426, 95234.14737462522, 99405.64390450544, 0.0, 0.0, 0.0, 0.0]
+
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+1
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 100000.0
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298
+volAirFilter.F1.Qm: 0
+volAirFilter.F1.Qmh: -0.0
+volAirFilter.F2.Qm: 0
+volAirFilter.F2.Qmh: -0.0
+
+2
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 100000.0
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298
+volAirFilter.F1.Qm: 0.0
+volAirFilter.F1.Qmh: -0.0
+volAirFilter.F2.Qm: 0.0
+volAirFilter.F2.Qmh: 0.0
+
+3
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 100000.0
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298.0
+volAirFilter.F1.Qm: 0.0
+volAirFilter.F1.Qmh: -0.0
+volAirFilter.F2.Qm: -0.14691333592467207
+volAirFilter.F2.Qmh: 22.193691907131143
+
+4
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 93704.49278494368
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 292.40071851809574
+volAirFilter.F1.Qm: 0.15167981546356132
+volAirFilter.F1.Qmh: -22.913747562405305
+volAirFilter.F2.Qm: -0.13697354362058958
+volAirFilter.F2.Qmh: 20.692121701613587
+
+5
+airFilter.E2.h: -5789.517725527432
+airFilter.E2.P: 88199.91432078648
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 287.41453034599266
+volAirFilter.F1.Qm: 0.20766103247756215
+volAirFilter.F1.Qmh: -31.37063730066584
+volAirFilter.F2.Qm: -0.12028812584440017
+volAirFilter.F2.Qmh: 696.4102367466292
+
+6
+airFilter.E2.h: -10809.627643765827
+airFilter.E2.P: 92670.63561285526
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 291.99694988344305
+volAirFilter.F1.Qm: 0.16366114507560148
+volAirFilter.F1.Qmh: -24.723725781018135
+volAirFilter.F2.Qm: -0.11842770709237564
+volAirFilter.F2.Qmh: 1280.159416373546
+
+7
+airFilter.E2.h: -6196.064989986433
+airFilter.E2.P: 98726.30314972287
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298.2649470284981
+volAirFilter.F1.Qm: 0.0682253018888958
+volAirFilter.F1.Qmh: -10.306561489894545
+volAirFilter.F2.Qm: -0.12250330296745301
+volAirFilter.F2.Qmh: 759.0384266743367
+
+8
+airFilter.E2.h: 115.76498452606782
+airFilter.E2.P: 98651.95554962027
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298.8799820051186
+volAirFilter.F1.Qm: 0.07018826951406813
+volAirFilter.F1.Qmh: -10.60310025148856
+volAirFilter.F2.Qm: -0.11053025319843202
+volAirFilter.F2.Qmh: -12.79553305117884
+
+9
+airFilter.E2.h: 735.1859926778999
+airFilter.E2.P: 94711.81988945426
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 295.65654176756755
+volAirFilter.F1.Qm: 0.13901624318246536
+volAirFilter.F1.Qmh: -21.000705292407194
+volAirFilter.F2.Qm: -0.08640091677726446
+volAirFilter.F2.Qmh: -63.520743769173784
+
+10
+airFilter.E2.h: -2511.067700359792
+airFilter.E2.P: 95234.14737462522
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 296.1206319432401
+volAirFilter.F1.Qm: 0.1319722839794443
+volAirFilter.F1.Qmh: -19.936598624525065
+volAirFilter.F2.Qm: -0.08820447540993721
+volAirFilter.F2.Qmh: 221.48740922907285
+
+
+[0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.060000000000000005, 0.07, 0.08, 0.09, 0.09999999999999999, 0.0, 0.0, 0.0, 0.0]
+[0.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 0.0, 0.0, 0.0, 0.0]
+[0.0, 100000.0, 100000.0, 93704.49278494368, 88199.91432078648, 92670.63561285526, 98726.30314972287, 98651.95554962027, 94711.81988945426, 95234.14737462522, 99405.64390450544, 0.0, 0.0, 0.0, 0.0]
+
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+1
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 100000.0
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298
+volAirFilter.F1.Qm: 0
+volAirFilter.F1.Qmh: -0.0
+volAirFilter.F2.Qm: 0
+volAirFilter.F2.Qmh: -0.0
+
+2
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 100000.0
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298
+volAirFilter.F1.Qm: 0.0
+volAirFilter.F1.Qmh: -0.0
+volAirFilter.F2.Qm: 0.0
+volAirFilter.F2.Qmh: 0.0
+
+3
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 100000.0
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298.0
+volAirFilter.F1.Qm: 0.0
+volAirFilter.F1.Qmh: -0.0
+volAirFilter.F2.Qm: -0.14691333592467207
+volAirFilter.F2.Qmh: 22.193691907131143
+
+4
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 99370.44927849434
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 297.46285718487337
+volAirFilter.F1.Qm: 0.04796536919388917
+volAirFilter.F1.Qmh: -7.245963202733337
+volAirFilter.F2.Qm: -0.14553205548490816
+volAirFilter.F2.Qmh: 21.98502662617132
+
+5
+airFilter.E2.h: -692.0209739362875
+airFilter.E2.P: 98324.96508326534
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 296.5646514832193
+volAirFilter.F1.Qm: 0.07823919275013574
+volAirFilter.F1.Qmh: -11.819325509356664
+volAirFilter.F2.Qm: -0.14325353385383272
+volAirFilter.F2.Qmh: 99.13445001734425
+
+6
+airFilter.E2.h: -1596.5738845529233
+airFilter.E2.P: 97630.8762640758
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 295.9632944378208
+volAirFilter.F1.Qm: 0.09304784099422808
+volAirFilter.F1.Qmh: -14.05641702063362
+volAirFilter.F2.Qm: -0.14173016957093199
+volAirFilter.F2.Qmh: 226.2826873902074
+
+7
+airFilter.E2.h: -2202.162204263731
+airFilter.E2.P: 97148.3666108744
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 295.54788733443434
+volAirFilter.F1.Qm: 0.10208437499565799
+volAirFilter.F1.Qmh: -15.421535103847537
+volAirFilter.F2.Qm: -0.1405495122453248
+volAirFilter.F2.Qmh: 309.5128236943567
+
+8
+airFilter.E2.h: -2620.483791319608
+airFilter.E2.P: 96782.3172999023
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 295.2390373326236
+volAirFilter.F1.Qm: 0.10843863356245624
+volAirFilter.F1.Qmh: -16.381451070918608
+volAirFilter.F2.Qm: -0.13948309544065013
+volAirFilter.F2.Qmh: 365.51319076530956
+
+9
+airFilter.E2.h: -2931.4962724897837
+airFilter.E2.P: 96493.69662292462
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 295.0017047006955
+volAirFilter.F1.Qm: 0.11319758814669481
+volAirFilter.F1.Qmh: -17.100369957198442
+volAirFilter.F2.Qm: -0.138478767147731
+volAirFilter.F2.Qmh: 405.94998971255416
+
+10
+airFilter.E2.h: -3170.4881091027924
+airFilter.E2.P: 96262.87275865642
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 294.81797794489063
+volAirFilter.F1.Qm: 0.11686416788543494
+volAirFilter.F1.Qmh: -17.654267536082987
+volAirFilter.F2.Qm: -0.13751158047192302
+volAirFilter.F2.Qmh: 435.9788307501637
+
+
+[0.0, 0.001, 0.002, 0.003, 0.004, 0.005, 0.006, 0.007, 0.008, 0.009000000000000001, 0.01, 0.0, 0.0, 0.0, 0.0]
+[0.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 0.0, 0.0, 0.0, 0.0]
+[0.0, 100000.0, 100000.0, 99370.44927849434, 98324.96508326534, 97630.8762640758, 97148.3666108744, 96782.3172999023, 96493.69662292462, 96262.87275865642, 96077.5640964995, 0.0, 0.0, 0.0, 0.0]
+
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. 
+
+C:\Users\aawan\Documents\SystemCouplingCosimulation\implicitModel>REM
+1
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 100000.0
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298
+volAirFilter.F1.Qm: 0
+volAirFilter.F1.Qmh: -0.0
+volAirFilter.F2.Qm: 0
+volAirFilter.F2.Qmh: -0.0
+
+2
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 100000.0
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298
+volAirFilter.F1.Qm: 0.0
+volAirFilter.F1.Qmh: -0.0
+volAirFilter.F2.Qm: 0.0
+volAirFilter.F2.Qmh: 0.0
+
+3
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 100000.0
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298.0
+volAirFilter.F1.Qm: 0.0
+volAirFilter.F1.Qmh: -0.0
+volAirFilter.F2.Qm: -0.14691333592467207
+volAirFilter.F2.Qmh: 22.193691907131143
+
+4
+airFilter.E2.h: -151.06655748740656
+airFilter.E2.P: 93704.49278494368
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 292.40071851809574
+volAirFilter.F1.Qm: 0.15167981546356132
+volAirFilter.F1.Qmh: -22.913747562405305
+volAirFilter.F2.Qm: -0.13697354362058958
+volAirFilter.F2.Qmh: 20.692121701613587
+
+5
+airFilter.E2.h: -5789.517725527432
+airFilter.E2.P: 88199.91432078648
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 287.41453034599266
+volAirFilter.F1.Qm: 0.20766103247756215
+volAirFilter.F1.Qmh: -31.37063730066584
+volAirFilter.F2.Qm: -0.12028812584440017
+volAirFilter.F2.Qmh: 696.4102367466292
+
+6
+airFilter.E2.h: -10809.627643765827
+airFilter.E2.P: 92670.63561285526
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 291.99694988344305
+volAirFilter.F1.Qm: 0.16366114507560148
+volAirFilter.F1.Qmh: -24.723725781018135
+volAirFilter.F2.Qm: -0.11842770709237564
+volAirFilter.F2.Qmh: 1280.159416373546
+
+7
+airFilter.E2.h: -6196.064989986433
+airFilter.E2.P: 98726.30314972287
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298.2649470284981
+volAirFilter.F1.Qm: 0.0682253018888958
+volAirFilter.F1.Qmh: -10.306561489894545
+volAirFilter.F2.Qm: -0.12250330296745301
+volAirFilter.F2.Qmh: 759.0384266743367
+
+8
+airFilter.E2.h: 115.76498452606782
+airFilter.E2.P: 98651.95554962027
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 298.8799820051186
+volAirFilter.F1.Qm: 0.07018826951406813
+volAirFilter.F1.Qmh: -10.60310025148856
+volAirFilter.F2.Qm: -0.11053025319843202
+volAirFilter.F2.Qmh: -12.79553305117884
+
+9
+airFilter.E2.h: 735.1859926778999
+airFilter.E2.P: 94711.81988945426
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 295.65654176756755
+volAirFilter.F1.Qm: 0.13901624318246536
+volAirFilter.F1.Qmh: -21.000705292407194
+volAirFilter.F2.Qm: -0.08640091677726446
+volAirFilter.F2.Qmh: -63.520743769173784
+
+10
+airFilter.E2.h: -2511.067700359792
+airFilter.E2.P: 95234.14737462522
+airFilter.E2.R: 287.0511382180156
+airFilter.E2.T: 296.1206319432401
+volAirFilter.F1.Qm: 0.1319722839794443
+volAirFilter.F1.Qmh: -19.936598624525065
+volAirFilter.F2.Qm: -0.08820447540993721
+volAirFilter.F2.Qmh: 221.48740922907285
+
+
+[0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.060000000000000005, 0.07, 0.08, 0.09, 0.09999999999999999, 0.0, 0.0, 0.0, 0.0]
+[0.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 100000.0, 0.0, 0.0, 0.0, 0.0]
+[0.0, 100000.0, 100000.0, 93704.49278494368, 88199.91432078648, 92670.63561285526, 98726.30314972287, 98651.95554962027, 94711.81988945426, 95234.14737462522, 99405.64390450544, 0.0, 0.0, 0.0, 0.0]
+
