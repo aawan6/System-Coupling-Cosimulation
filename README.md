@@ -32,5 +32,5 @@
 
 ### thermalEngineModel
 - Python
-- first_step.py: Simple Engine Model
+- first_step.py: Thermal Engine Model
 - original implementation altered to run locally
